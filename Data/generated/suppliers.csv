@@ -1,0 +1,2001 @@
+supplier_id,supplier_name,city
+1,Fonseca,Câmara de Silva
+2,Casa Grande,Cavalcante
+3,Jesus Nascimento e Filhos,Rodrigues
+4,Costela,Barbosa
+5,Pinto,Pastor
+6,Câmara Ltda.,Moura
+7,Cavalcanti - EI,Guerra
+8,Brito - ME,Moreira de Goiás
+9,Azevedo - ME,Sá
+10,Pimenta,Andrade dos Dourados
+11,Borges da Conceição e Filhos,Pinto
+12,Costa Martins Ltda.,Castro
+13,Montenegro S/A,Silva
+14,Caldeira,Oliveira do Sul
+15,Pastor da Rocha - ME,Macedo
+16,Fogaça Nunes - EI,Pimenta
+17,da Cruz Costela e Filhos,Correia
+18,Leão,Sales do Campo
+19,Viana Moreira - EI,Brito de Sales
+20,Jesus Montenegro e Filhos,Moreira
+21,Barbosa,Albuquerque Verde
+22,Albuquerque - ME,Santos de da Rosa
+23,Costela da Mota S/A,Marques
+24,Andrade,Leão
+25,Camargo,da Mata
+26,Nogueira,Novaes de da Rosa
+27,Pires Correia Ltda.,Mendonça do Amparo
+28,Freitas Guerra - EI,Moura Alegre
+29,Camargo,Macedo de Casa Grande
+30,Nascimento Leão - ME,Rezende do Sul
+31,Sousa S/A,da Costa
+32,Montenegro e Filhos,Barros do Sul
+33,Costela e Filhos,Oliveira de Goiás
+34,da Mota,Borges Grande
+35,Nascimento Duarte e Filhos,Fogaça do Oeste
+36,Santos,Rodrigues da Praia
+37,Pimenta,Guerra de Minas
+38,Viana Pereira S/A,Sousa das Flores
+39,Alves Rios e Filhos,Vargas
+40,da Cruz e Filhos,Lopes do Norte
+41,da Cunha,Cassiano de Minas
+42,Siqueira,Barbosa do Norte
+43,Aparecida,Caldeira
+44,Machado,Rodrigues dos Dourados
+45,Moura,Rocha de Mendes
+46,Camargo e Filhos,Mendes de Cavalcante
+47,Vieira e Filhos,Caldeira do Galho
+48,da Mota,Araújo de Nascimento
+49,Silveira - ME,Gonçalves
+50,da Luz Sá S.A.,Cassiano
+51,Albuquerque,da Luz do Amparo
+52,Sales,Melo
+53,Silva S.A.,Jesus de Rocha
+54,Moreira,Aparecida de Sousa
+55,Farias Cavalcante - EI,Camargo
+56,Ramos,Cavalcanti
+57,Pereira,Rezende de Nascimento
+58,Sá,Barros Grande
+59,Marques,Ferreira
+60,Lopes S/A,Mendes
+61,da Cruz,Machado
+62,Oliveira,da Rocha
+63,Dias - ME,Costela da Praia
+64,Macedo,Pinto
+65,Cunha S.A.,Cardoso
+66,Alves Lima S/A,da Luz Grande
+67,Pires,Almeida do Galho
+68,da Mata Novais - EI,Silveira
+69,Costela S.A.,Pinto de Camargo
+70,Pereira Ltda.,Santos
+71,Correia,Costa de Casa Grande
+72,Araújo,Pereira de Siqueira
+73,Almeida Nogueira S.A.,Nunes
+74,da Cunha Oliveira S.A.,Rios
+75,Campos S/A,Macedo
+76,Montenegro Fogaça Ltda.,Freitas do Sul
+77,Cavalcante Moraes - EI,Vargas
+78,da Rocha,da Mata da Serra
+79,Macedo Câmara e Filhos,Cirino Grande
+80,Macedo,Sales Paulista
+81,Lopes Pastor Ltda.,Macedo
+82,da Conceição,Montenegro da Mata
+83,da Paz - ME,Ferreira do Oeste
+84,Machado Dias - ME,Abreu das Flores
+85,Borges Azevedo S.A.,Rios de Minas
+86,Teixeira S/A,Nunes
+87,Martins Moreira S/A,Aragão das Flores
+88,Cirino,Pinto de Guerra
+89,Fonseca Almeida - ME,Rodrigues da Prata
+90,Oliveira,Rios de Minas
+91,Vasconcelos,Casa Grande
+92,Sá,Sampaio Alegre
+93,Costela S/A,Ramos de Correia
+94,Vieira S.A.,Mendes
+95,Pinto,Fonseca
+96,Monteiro,Lopes
+97,Leão,Costela
+98,Castro e Filhos,Pimenta de Lopes
+99,Brito,Nascimento de Nunes
+100,Melo,Macedo
+101,da Luz,da Conceição do Oeste
+102,Caldeira,Cavalcanti de Machado
+103,Brito,Correia do Galho
+104,da Rocha,Araújo Grande
+105,Souza,Barros
+106,Teixeira,Novais
+107,Fernandes Monteiro S.A.,Guerra
+108,Santos,Costela
+109,da Mata,Martins Alegre
+110,Rocha - EI,Lima
+111,Rocha S/A,da Mota da Praia
+112,Lima Ltda.,Lima
+113,Jesus,Abreu
+114,Nascimento,Azevedo Grande
+115,Martins,Sales de Goiás
+116,Garcia - EI,Garcia do Norte
+117,Pinto Câmara - ME,Costela da Praia
+118,Araújo,Abreu do Galho
+119,Pereira,da Paz do Campo
+120,Araújo S/A,Vieira
+121,Pires,Castro
+122,da Costa Sá - ME,da Cruz de da Rosa
+123,Sampaio,Pimenta
+124,Pinto da Cruz S.A.,Farias
+125,Pastor S.A.,da Paz
+126,Nogueira,Sales
+127,Moura Silva S/A,Sampaio
+128,Fogaça Novais - ME,Pinto de da Conceição
+129,Mendonça Ltda.,da Mota Paulista
+130,Pastor Ltda.,Rios
+131,Leão,Marques das Flores
+132,Vasconcelos S/A,Pinto de Goiás
+133,Macedo,Rocha do Norte
+134,Guerra,Lima Paulista
+135,Pastor,Araújo
+136,Correia,Sampaio Alegre
+137,Rocha da Luz - EI,Barbosa
+138,da Paz,Costa do Amparo
+139,Araújo,Almeida
+140,Casa Grande,Sales de Nunes
+141,Pires Ltda.,da Conceição
+142,Ferreira Ltda.,Ferreira
+143,Novais Peixoto - EI,Oliveira do Amparo
+144,Albuquerque,Jesus de Souza
+145,Rocha,Novaes do Galho
+146,Lima,Novais
+147,da Mata Pinto S/A,Carvalho da Serra
+148,Teixeira Souza S.A.,Costa
+149,Nascimento Sampaio S/A,Rodrigues
+150,Cavalcanti e Filhos,Cunha de Abreu
+151,Guerra Costela - ME,Brito
+152,Camargo - ME,da Rocha Grande
+153,Câmara,Pastor do Galho
+154,Albuquerque,Guerra
+155,da Mata e Filhos,Camargo Paulista
+156,Duarte,Pacheco
+157,Carvalho,Costa da Praia
+158,Castro S/A,Marques da Serra
+159,da Cunha,Freitas
+160,Araújo - EI,Correia do Norte
+161,Silveira - ME,Barros de Goiás
+162,Novais,Fernandes de Gomes
+163,Almeida,Sá
+164,Gonçalves - EI,Souza de Ramos
+165,Dias Pereira S/A,da Mata
+166,Nogueira Alves - ME,Duarte Verde
+167,Nogueira,Andrade
+168,Pires e Filhos,Fonseca
+169,Machado da Conceição Ltda.,Nogueira da Praia
+170,da Rosa,da Cruz do Norte
+171,Moreira,Dias Alegre
+172,das Neves Novaes Ltda.,Mendonça
+173,Nascimento,Lopes das Pedras
+174,Cassiano,Oliveira
+175,da Mata Santos - EI,Câmara
+176,Costa e Filhos,Borges de Fogaça
+177,da Cunha e Filhos,Siqueira Verde
+178,da Mota,Aragão
+179,Duarte,Oliveira
+180,Almeida - EI,Azevedo Grande
+181,Lima Vasconcelos S.A.,Nogueira
+182,Barros Carvalho e Filhos,Castro das Pedras
+183,da Rosa,Moreira
+184,da Paz,Rezende de Porto
+185,Almeida,Fogaça
+186,Ribeiro Ltda.,Câmara
+187,Nogueira,Cardoso de Teixeira
+188,Macedo Vargas - EI,Novaes das Flores
+189,Dias Barros S.A.,Camargo de Ribeiro
+190,da Cruz,Ribeiro
+191,Macedo Vasconcelos S/A,Rezende do Norte
+192,Cirino,Gonçalves do Galho
+193,Lima Cassiano S/A,Sales do Amparo
+194,da Rosa,Montenegro
+195,Andrade Moreira e Filhos,Aparecida
+196,da Rocha e Filhos,Moura
+197,da Rosa,Mendes Verde
+198,Viana,Fernandes
+199,Barbosa Rezende - EI,Araújo das Pedras
+200,Monteiro Melo - EI,Costa do Sul
+201,Fogaça S/A,Andrade das Pedras
+202,Rios S/A,Andrade de Barros
+203,Mendes,Porto
+204,Duarte Ltda.,Borges
+205,Freitas - ME,Pacheco
+206,da Conceição,Peixoto de Ferreira
+207,Novais,Porto
+208,Siqueira,da Mata
+209,Cassiano,Novais Verde
+210,Almeida,Casa Grande dos Dourados
+211,Macedo S/A,Ramos Grande
+212,da Conceição,Camargo
+213,Ramos,Pinto do Norte
+214,Teixeira,Sales de Farias
+215,Leão Garcia - EI,Ramos
+216,da Rocha,Vieira da Mata
+217,Santos,Caldeira
+218,Dias,Cirino das Flores
+219,Freitas Ltda.,Pimenta
+220,Pinto,Câmara Verde
+221,Correia da Mata Ltda.,Correia
+222,Câmara,Cavalcanti
+223,Ferreira,Ribeiro
+224,Nascimento Moraes e Filhos,Pereira Verde
+225,Silveira Ribeiro - ME,Fonseca das Pedras
+226,Vargas,Guerra
+227,Freitas - EI,Cavalcanti do Norte
+228,Lopes,Jesus
+229,Rodrigues - ME,Silveira
+230,Cirino Abreu S/A,Monteiro
+231,Leão,Pereira
+232,Castro Mendes S.A.,Leão de Freitas
+233,Duarte - ME,Cirino
+234,Montenegro Sá - EI,Aragão de Souza
+235,Barros S.A.,Sousa de Ramos
+236,Correia,Cardoso
+237,Porto,Porto
+238,Borges,Cavalcanti do Galho
+239,Leão,Camargo
+240,Silveira Aparecida - ME,Pacheco do Campo
+241,Nogueira,Nogueira Grande
+242,Freitas da Mota e Filhos,Cavalcante
+243,Rodrigues,Ferreira
+244,Vieira,Porto de Martins
+245,Araújo e Filhos,Cavalcante de Guerra
+246,Mendes Ltda.,Novaes
+247,Ferreira,Dias das Pedras
+248,Sampaio da Paz e Filhos,Martins
+249,Sampaio,Sampaio de Aragão
+250,Monteiro Ltda.,Alves da Praia
+251,Câmara,Pastor
+252,Fonseca,Peixoto
+253,Souza S/A,Teixeira
+254,Barbosa Rodrigues - ME,Machado
+255,Campos Macedo S/A,Ribeiro
+256,Ribeiro,Correia Verde
+257,Camargo e Filhos,Andrade
+258,Gomes,Mendonça do Oeste
+259,Lopes,Mendonça Grande
+260,Vieira Fogaça - EI,Silveira do Oeste
+261,Garcia,da Mota
+262,Gomes - EI,Rios
+263,Sá e Filhos,Moura do Amparo
+264,Souza,Mendes
+265,Fogaça - ME,Jesus
+266,da Rocha e Filhos,Fogaça
+267,Moraes,Leão
+268,das Neves,Barbosa
+269,Viana,Nogueira
+270,da Paz e Filhos,Campos
+271,Monteiro,Teixeira das Pedras
+272,Cunha Cardoso - EI,Cardoso
+273,Cavalcanti,Melo da Prata
+274,Fernandes,Aragão Grande
+275,Araújo,Pinto Grande
+276,Gomes da Luz e Filhos,Cardoso de Fonseca
+277,Machado Vargas S.A.,Siqueira
+278,Vieira Ltda.,Ramos do Oeste
+279,Santos Gomes S/A,Marques da Serra
+280,Gonçalves,Gomes do Campo
+281,Pastor da Costa - ME,Almeida
+282,Fogaça Ltda.,Silveira Grande
+283,Pimenta - EI,Pinto
+284,Dias Ltda.,Silva
+285,da Mata Cunha S.A.,Teixeira
+286,Teixeira e Filhos,Peixoto
+287,Cassiano,Rios da Prata
+288,Garcia,Ramos
+289,da Costa Moraes S.A.,Azevedo
+290,Borges,Leão de Goiás
+291,Camargo,Duarte
+292,Garcia,da Conceição do Norte
+293,Pires Gomes S.A.,da Cunha de Ferreira
+294,Novais Vieira - EI,Pimenta
+295,Santos Cirino Ltda.,Costela de Monteiro
+296,Pastor,Cunha
+297,Novais e Filhos,Cunha do Amparo
+298,Barbosa S.A.,Rodrigues
+299,Dias S.A.,Nogueira da Mata
+300,Rios e Filhos,Almeida
+301,Ribeiro e Filhos,Cunha
+302,Martins,da Rocha de Peixoto
+303,Casa Grande Pimenta Ltda.,Teixeira de Ferreira
+304,Correia,Marques de Goiás
+305,Santos Cunha S.A.,Cavalcante da Serra
+306,Nunes Freitas Ltda.,Ferreira
+307,Duarte e Filhos,Vargas
+308,Garcia S.A.,Teixeira Grande
+309,da Costa Machado e Filhos,Castro
+310,Albuquerque Ribeiro e Filhos,da Luz
+311,Sousa Farias S.A.,Machado
+312,da Cunha Teixeira - EI,Brito
+313,Vieira,Santos de Sá
+314,Gomes,Mendonça
+315,Macedo,Albuquerque de Almeida
+316,Cavalcanti e Filhos,Silva de Aparecida
+317,Garcia - ME,Nascimento
+318,Cavalcanti,Nunes da Prata
+319,Dias da Rocha e Filhos,Jesus
+320,Sampaio e Filhos,Vargas da Prata
+321,Macedo Aparecida - ME,Ramos do Amparo
+322,Barros,Farias das Flores
+323,Gomes S.A.,Jesus
+324,da Mota,Rios de Azevedo
+325,Rocha,Nascimento das Pedras
+326,Azevedo,Duarte
+327,Cardoso,Casa Grande
+328,Vieira,da Luz do Campo
+329,Martins,Albuquerque
+330,Cunha Casa Grande - ME,Jesus de Martins
+331,da Mota,Aragão de Jesus
+332,Montenegro,Andrade de Azevedo
+333,Camargo - EI,Moreira
+334,Costela e Filhos,Porto
+335,Correia S.A.,Dias da Praia
+336,Dias,da Luz
+337,Ramos Viana - ME,Lima de Gomes
+338,da Mota - EI,Souza
+339,Cirino e Filhos,Nascimento Paulista
+340,Pinto,Fernandes do Norte
+341,Barros Cardoso - EI,Barros
+342,Souza Cirino - ME,Camargo de da Mata
+343,Campos Sousa - EI,Rezende
+344,da Luz e Filhos,Mendonça de Goiás
+345,Rocha,Macedo de Viana
+346,das Neves - ME,Casa Grande das Pedras
+347,Viana,Caldeira
+348,da Costa,Garcia
+349,Pires Casa Grande S/A,Vieira
+350,Andrade,da Cruz da Praia
+351,Carvalho,Nogueira de Cassiano
+352,Pinto Campos - EI,Oliveira do Oeste
+353,Gonçalves,Freitas de Garcia
+354,Moraes Jesus - EI,Cassiano dos Dourados
+355,Silva,Machado do Campo
+356,Pires,Lopes
+357,Andrade,Rodrigues
+358,Mendonça S.A.,Porto
+359,Brito Rodrigues - ME,Sá
+360,Cirino Siqueira Ltda.,Pires das Pedras
+361,Aparecida Moraes Ltda.,da Costa da Serra
+362,Marques Porto Ltda.,Câmara do Oeste
+363,Novais,da Costa da Praia
+364,Araújo,da Rosa
+365,Azevedo,Campos da Prata
+366,Duarte,Alves
+367,Almeida Monteiro S.A.,Pinto
+368,Peixoto e Filhos,Borges
+369,Sá,Cavalcanti
+370,Dias e Filhos,da Mata Verde
+371,Machado - ME,Aragão
+372,Montenegro Jesus Ltda.,Pacheco do Amparo
+373,Carvalho,Duarte da Serra
+374,Barbosa,Cavalcanti do Oeste
+375,Sampaio,Ferreira
+376,Almeida e Filhos,Fogaça das Flores
+377,Borges S.A.,da Conceição
+378,Sampaio,Aragão
+379,Borges e Filhos,Andrade
+380,Castro - EI,Santos
+381,Melo,Pastor
+382,Jesus Aparecida e Filhos,Alves do Norte
+383,Vieira S/A,da Luz de Dias
+384,Rezende Ltda.,Gonçalves
+385,Cavalcanti,Siqueira
+386,Silveira,Brito
+387,Pimenta S.A.,Jesus
+388,Almeida S.A.,Cardoso do Campo
+389,Garcia da Rosa S/A,Ramos
+390,Câmara,da Rocha da Mata
+391,Moura,Melo de Leão
+392,Montenegro,Marques
+393,Moreira Jesus - ME,das Neves
+394,Santos,Gonçalves
+395,Marques,Silva de Brito
+396,Farias Siqueira e Filhos,Vargas do Sul
+397,Melo da Mata Ltda.,Rocha
+398,Viana,Moreira
+399,Casa Grande S/A,Pastor do Galho
+400,Sampaio,Ramos
+401,Rodrigues,Brito do Oeste
+402,da Cunha,Sá
+403,Marques,Nogueira da Serra
+404,Alves S/A,Barbosa Paulista
+405,Porto,da Rosa
+406,Mendonça Silveira - ME,Abreu de Minas
+407,Oliveira Ltda.,da Cunha do Amparo
+408,Cavalcante Mendes e Filhos,Fogaça
+409,da Luz - EI,da Cruz
+410,da Cruz da Paz Ltda.,da Mota de Caldeira
+411,Fernandes Oliveira - ME,Fernandes dos Dourados
+412,Souza Ltda.,Pacheco da Prata
+413,Almeida S/A,Carvalho Verde
+414,Almeida S/A,Cassiano
+415,Moura,Oliveira
+416,Araújo,Campos
+417,da Costa,Campos dos Dourados
+418,Dias e Filhos,Barbosa da Serra
+419,Silva Dias S/A,Ferreira
+420,Casa Grande S.A.,Rodrigues
+421,da Paz,Ramos de Minas
+422,da Conceição e Filhos,Leão de Carvalho
+423,Carvalho - EI,Machado
+424,Borges,Martins
+425,Freitas,da Luz da Praia
+426,Fogaça,Novaes
+427,Sousa,das Neves
+428,Lima,da Cunha da Mata
+429,Gonçalves - ME,Ferreira
+430,Rezende - ME,Barros de Azevedo
+431,Vieira Nogueira Ltda.,Campos
+432,Garcia,Borges
+433,Pinto S/A,Leão da Mata
+434,Ribeiro Moura S.A.,Fogaça de Rios
+435,Novaes Rezende - ME,da Mota de Nogueira
+436,Borges Sampaio e Filhos,da Costa da Serra
+437,Fogaça,Cassiano do Campo
+438,Ferreira,Rios
+439,Abreu Leão e Filhos,Montenegro de Minas
+440,Dias,Borges do Oeste
+441,Teixeira Lopes - ME,Costa
+442,Guerra,Rodrigues
+443,Monteiro da Rocha - ME,Melo da Prata
+444,Lopes,Campos do Amparo
+445,Sampaio,Melo
+446,Castro - ME,Ramos
+447,Cavalcante,Sampaio do Norte
+448,da Mata Dias e Filhos,Gonçalves
+449,Fogaça,Jesus
+450,da Cunha,Moraes de Moreira
+451,Correia,Costa
+452,Vieira,Carvalho
+453,Souza da Costa - EI,Melo
+454,Duarte,Borges Paulista
+455,Cunha,Guerra
+456,Fogaça Ltda.,Macedo do Galho
+457,Marques S/A,Macedo das Flores
+458,Rezende Barros e Filhos,Vargas de Leão
+459,da Costa - ME,Vieira Paulista
+460,Martins,Casa Grande de Pinto
+461,Alves,Costela do Oeste
+462,Fogaça,da Costa dos Dourados
+463,Pinto,Cardoso
+464,Vasconcelos Oliveira e Filhos,Cassiano
+465,Almeida S.A.,Brito
+466,Cardoso,Mendonça
+467,Mendonça,Barbosa
+468,Siqueira,Rodrigues do Campo
+469,Carvalho,Peixoto das Pedras
+470,Jesus - EI,Teixeira do Galho
+471,das Neves S/A,Vargas
+472,da Cruz,Barros de Minas
+473,da Mata Borges S.A.,Novais de Câmara
+474,Moura,Câmara do Galho
+475,Rezende,Costa
+476,Caldeira S/A,Guerra de das Neves
+477,Vasconcelos,Jesus de Lopes
+478,Melo Sousa e Filhos,Costa dos Dourados
+479,Sales,Brito
+480,Fernandes,Macedo do Galho
+481,Caldeira,Dias
+482,Ferreira,Cavalcante
+483,Pimenta,Macedo das Pedras
+484,Fogaça,Aragão de Brito
+485,Correia,Monteiro
+486,Nunes,Rezende do Sul
+487,Sales - EI,Porto
+488,Azevedo,Vieira
+489,Casa Grande - ME,Caldeira das Pedras
+490,Garcia Barbosa S/A,Silva
+491,Souza Pinto Ltda.,Macedo de Minas
+492,Moraes S.A.,Sá
+493,Montenegro,Campos de Minas
+494,Pimenta S/A,Costela
+495,Porto,Vargas
+496,Moura,Rodrigues
+497,Borges - ME,Costa
+498,Rios e Filhos,da Mata
+499,Pires Teixeira S.A.,Rios da Serra
+500,Marques,Moraes das Pedras
+501,Nunes Silva - EI,Alves
+502,Câmara,Guerra
+503,Oliveira Pires e Filhos,Lopes de Nunes
+504,Farias,Nascimento
+505,Carvalho Ltda.,Costela
+506,da Rocha Cassiano - EI,da Mata
+507,Duarte - ME,Costela do Amparo
+508,Caldeira,Moreira das Pedras
+509,Lopes - EI,Teixeira Grande
+510,Camargo S/A,Rodrigues do Oeste
+511,Lima,Rodrigues das Pedras
+512,Caldeira S.A.,Camargo
+513,Gonçalves,da Cunha das Pedras
+514,Fernandes,Leão Alegre
+515,Costa,Sales
+516,Pacheco S/A,Teixeira
+517,Cavalcante,Carvalho
+518,Freitas,Rocha
+519,Almeida,Porto Verde
+520,Gonçalves,Pastor do Norte
+521,Barbosa S.A.,Barros do Oeste
+522,Aparecida - EI,Teixeira Alegre
+523,Fogaça Sampaio S/A,Lima
+524,Ramos,Freitas
+525,Câmara Almeida S/A,Cavalcante de da Luz
+526,Fonseca S/A,Cavalcanti
+527,Moura,Sales de Goiás
+528,Macedo Caldeira S.A.,Almeida da Praia
+529,Castro,Cardoso de Minas
+530,Oliveira,Cavalcante
+531,Aragão,Carvalho do Campo
+532,Cardoso - EI,Abreu das Flores
+533,Cavalcanti Câmara - EI,Pastor Paulista
+534,Carvalho,Fogaça de Barros
+535,Almeida,Brito do Oeste
+536,da Rosa Pires Ltda.,Pacheco das Flores
+537,Nascimento Oliveira - ME,Nunes de Goiás
+538,Pereira S/A,Leão
+539,Aparecida - EI,Vargas de Minas
+540,Brito - ME,Nascimento de Pires
+541,Sales,Silveira do Sul
+542,Vieira,Barros das Flores
+543,Pereira,Vasconcelos
+544,Almeida Teixeira - EI,Correia de Goiás
+545,Pimenta,Novaes
+546,da Costa,Pinto
+547,Lopes S.A.,Fernandes da Prata
+548,Cassiano S/A,Martins
+549,Siqueira Viana - ME,Gonçalves de Rodrigues
+550,Andrade S.A.,Souza
+551,Cardoso,Moreira Verde
+552,Oliveira,da Costa
+553,da Luz Andrade e Filhos,Pastor
+554,Mendonça,Aparecida
+555,Castro S.A.,Camargo
+556,Mendes S.A.,Oliveira
+557,Sousa,Cunha Paulista
+558,Duarte,Cunha do Galho
+559,Santos - EI,Abreu Grande
+560,Pinto Câmara - ME,Brito do Norte
+561,Campos,Lopes
+562,da Paz,Lopes
+563,Jesus Pimenta S.A.,Alves do Campo
+564,Fonseca,Dias
+565,Porto Aragão e Filhos,Barros de Caldeira
+566,Novaes S/A,Pacheco
+567,da Costa Dias S.A.,Vieira
+568,da Mata,Dias de Alves
+569,Mendonça,Viana das Flores
+570,Pastor,Montenegro de Freitas
+571,Azevedo S.A.,Gonçalves da Prata
+572,Pereira Fernandes - EI,Lopes do Oeste
+573,Costela Azevedo S/A,Marques do Norte
+574,Araújo Casa Grande e Filhos,da Conceição
+575,Duarte Alves - ME,Pires de Goiás
+576,Lima,Alves
+577,Moraes,Cunha
+578,Cirino e Filhos,Porto
+579,Cardoso,Rocha de Brito
+580,Pereira,Nunes
+581,Lopes e Filhos,da Rocha
+582,Borges,da Costa
+583,Santos Vieira S.A.,Vieira Grande
+584,Nascimento - EI,Cunha de Cavalcanti
+585,Siqueira Sá Ltda.,Ferreira do Sul
+586,Castro Novaes - ME,Nogueira
+587,Marques - EI,Vargas de Minas
+588,Garcia,Martins
+589,Novaes,Aragão de Cavalcante
+590,Casa Grande da Conceição S.A.,Santos da Mata
+591,Cardoso - ME,Silva
+592,das Neves Porto S.A.,Oliveira
+593,Sá,Fogaça Paulista
+594,da Rocha,Ribeiro da Serra
+595,Camargo e Filhos,Rodrigues de Goiás
+596,Pereira - EI,Macedo de Minas
+597,Rezende Barbosa - EI,Costa Grande
+598,Silva,Aragão
+599,Pereira das Neves Ltda.,Ferreira de Pires
+600,Silveira,Cunha de Goiás
+601,Sousa,da Rocha da Serra
+602,Almeida,Câmara
+603,Sales S/A,Ribeiro das Pedras
+604,Machado S.A.,Vasconcelos de Vasconcelos
+605,Duarte,Dias de da Costa
+606,das Neves e Filhos,Siqueira
+607,Campos,Camargo Alegre
+608,da Mota,Câmara Alegre
+609,Macedo Viana - EI,Gonçalves
+610,Aparecida Ltda.,Porto
+611,Camargo,Alves Grande
+612,Vieira,Carvalho dos Dourados
+613,Oliveira,da Cunha
+614,da Paz,Moura do Sul
+615,Melo,Nunes de Minas
+616,Nogueira Leão S.A.,Silveira do Oeste
+617,Mendes,Oliveira
+618,da Cruz,Araújo
+619,Costa Pires S.A.,Vargas
+620,Rezende S.A.,Casa Grande
+621,Rios,Freitas do Oeste
+622,Garcia,Araújo
+623,Machado,Dias de Minas
+624,Ferreira,Moreira
+625,Caldeira Cardoso - EI,Lima da Praia
+626,Gonçalves,Barros das Pedras
+627,Guerra,Aparecida de Azevedo
+628,Nunes S/A,Albuquerque do Galho
+629,Mendes Casa Grande - ME,Campos dos Dourados
+630,Mendes,Nunes
+631,Moraes,Vieira do Sul
+632,Machado,Fogaça
+633,Novaes,Pacheco das Pedras
+634,Andrade das Neves e Filhos,Aparecida
+635,Vieira,Teixeira de Pinto
+636,Pastor Barbosa Ltda.,Cassiano de Vieira
+637,da Cunha Pimenta e Filhos,Pacheco dos Dourados
+638,das Neves,Costela da Mata
+639,Nunes Ltda.,Costela da Mata
+640,Alves e Filhos,Macedo
+641,Silva S.A.,Ribeiro
+642,Cavalcanti,Barros
+643,da Paz,da Rocha
+644,Sá,Leão do Campo
+645,Macedo,Casa Grande
+646,Alves,da Mota
+647,Vasconcelos,Rocha
+648,Gonçalves,Pacheco
+649,Silva e Filhos,Peixoto do Galho
+650,Nascimento,da Cunha
+651,Fernandes,Cavalcanti
+652,Melo Pimenta S.A.,Duarte
+653,Andrade,Caldeira da Mata
+654,Carvalho,Fogaça da Prata
+655,Cunha Cavalcante e Filhos,Guerra
+656,Pacheco da Conceição e Filhos,Fogaça
+657,Lopes,Souza
+658,Jesus,Mendes
+659,Fogaça S/A,Camargo do Oeste
+660,Rodrigues,Almeida do Sul
+661,Sampaio,Barbosa do Galho
+662,Santos Ltda.,Macedo
+663,Andrade,Cavalcanti de Minas
+664,Araújo,Azevedo
+665,Casa Grande,Rocha Grande
+666,Ferreira,Gonçalves da Prata
+667,Ramos - EI,da Conceição
+668,da Conceição,Câmara de Câmara
+669,Pastor,da Cunha
+670,Garcia Pereira Ltda.,Martins
+671,Abreu S/A,Rocha
+672,Andrade,Aparecida
+673,Rocha - EI,da Paz da Praia
+674,Andrade e Filhos,Cavalcante de Souza
+675,Cavalcante Silveira - ME,Carvalho
+676,Vieira,Caldeira
+677,da Paz Cavalcante - ME,Fernandes
+678,Leão,Abreu Grande
+679,Brito,Sousa das Flores
+680,Sá,da Mota
+681,Caldeira,Cavalcanti
+682,Borges Marques S/A,Silva da Praia
+683,da Luz,Macedo
+684,Aparecida Carvalho S.A.,Albuquerque de Montenegro
+685,Nogueira Cirino e Filhos,Moreira
+686,Cardoso Ribeiro Ltda.,Lopes de Minas
+687,Siqueira,da Rocha
+688,Sales e Filhos,Silva
+689,Cavalcante Leão S/A,Pinto
+690,da Cruz,Freitas
+691,Cunha Jesus S.A.,Guerra
+692,Câmara Viana e Filhos,da Costa
+693,Freitas Gomes - ME,Ramos
+694,Silva Cirino - ME,da Costa de Minas
+695,Macedo,da Rocha
+696,Nogueira Fogaça S.A.,Marques da Mata
+697,Fogaça Ltda.,Rezende do Galho
+698,Sá Moura - EI,Alves
+699,Siqueira,Camargo de Pires
+700,Moraes,Peixoto
+701,Cunha,Duarte
+702,Camargo e Filhos,Macedo
+703,Mendonça S/A,Costa
+704,Moraes e Filhos,da Conceição
+705,Nascimento Almeida Ltda.,Nogueira do Campo
+706,Moura,Azevedo da Prata
+707,Fonseca da Mata Ltda.,Nogueira de Goiás
+708,Teixeira,Sampaio de Nogueira
+709,Novais Leão - EI,Mendes
+710,Caldeira Ltda.,Barbosa do Galho
+711,Garcia e Filhos,Garcia
+712,Santos,Cirino
+713,Gomes S.A.,Fogaça
+714,Marques Ltda.,Rios
+715,Duarte - EI,Pacheco Alegre
+716,Freitas,Fogaça das Flores
+717,da Mota Ltda.,Cardoso da Prata
+718,Castro Ltda.,Peixoto
+719,Costa,Moraes
+720,Novaes,Ferreira da Serra
+721,Guerra S/A,Rodrigues
+722,Pereira,Borges do Amparo
+723,Gonçalves Mendonça e Filhos,Freitas da Mata
+724,Moreira,Costela de Viana
+725,Barros,Novaes do Amparo
+726,Pacheco,Marques
+727,Cunha Garcia S/A,Sá
+728,Sales,Nogueira
+729,Montenegro Ramos - EI,Ribeiro
+730,Oliveira S.A.,Brito Verde
+731,Andrade Carvalho - ME,Gomes
+732,Cavalcanti Cirino - ME,Aparecida
+733,Mendes Ltda.,Nogueira
+734,da Rocha Camargo - ME,Casa Grande
+735,Alves da Mota S.A.,Vieira
+736,Alves,Rocha dos Dourados
+737,da Mota Carvalho e Filhos,Sampaio de Macedo
+738,Machado,Guerra
+739,Cunha,Santos de Minas
+740,Cavalcanti e Filhos,Santos
+741,Sá,Correia
+742,Camargo Andrade - EI,Moraes da Serra
+743,Pires Ltda.,Moura de Freitas
+744,Azevedo Alves e Filhos,Pacheco da Mata
+745,Rios Peixoto e Filhos,Ramos do Campo
+746,Brito,Sales
+747,Camargo Alves S/A,Pastor
+748,Martins,Farias
+749,Novaes Casa Grande - ME,Albuquerque Alegre
+750,da Cruz,da Cruz
+751,Gonçalves - EI,Ribeiro de Monteiro
+752,da Costa,Melo do Oeste
+753,Marques S.A.,Camargo
+754,Cunha Peixoto e Filhos,Jesus
+755,Pinto S/A,Casa Grande do Norte
+756,Machado Azevedo - ME,Melo
+757,da Mata Borges Ltda.,Melo
+758,Moreira,Casa Grande de Rodrigues
+759,da Rocha e Filhos,Casa Grande
+760,Vasconcelos,da Cruz da Mata
+761,Albuquerque Costa e Filhos,Santos
+762,Albuquerque S.A.,Martins
+763,da Conceição,Garcia de da Costa
+764,Nunes,Oliveira
+765,Sá,Cavalcanti de Barros
+766,Guerra S.A.,Camargo Alegre
+767,Freitas,Porto do Amparo
+768,Alves,Pires
+769,Azevedo da Conceição - EI,Santos de Costa
+770,Leão,da Rocha
+771,Cavalcante,Costa
+772,Albuquerque Sá S.A.,Fonseca
+773,Araújo,Albuquerque do Sul
+774,Costela S.A.,Abreu da Prata
+775,Nogueira,Nascimento da Prata
+776,das Neves,Carvalho do Campo
+777,Aragão,Fonseca
+778,Casa Grande,Ferreira de Camargo
+779,Jesus Vasconcelos - ME,Casa Grande de Vargas
+780,Ribeiro Ltda.,Rocha
+781,Siqueira,Cirino
+782,da Paz - EI,Costela
+783,Cassiano,Ramos
+784,Fernandes da Mota - ME,Pereira
+785,Ferreira,Silva do Norte
+786,Cavalcante,da Paz da Prata
+787,Barbosa,Alves
+788,da Mota Ltda.,Vasconcelos de Novaes
+789,Farias,Leão
+790,Barros,Sá do Sul
+791,da Paz S/A,Viana Grande
+792,Cavalcante,Caldeira
+793,Mendes e Filhos,Fernandes do Amparo
+794,Siqueira,da Costa de Minas
+795,Oliveira,Machado
+796,da Rosa - EI,Novais
+797,Castro da Cunha e Filhos,Pereira
+798,Cavalcanti,Vasconcelos
+799,Campos - EI,Moraes do Galho
+800,Marques Cunha Ltda.,da Mata
+801,da Rocha - EI,Sá do Galho
+802,Nogueira,Fogaça
+803,Rios,Siqueira
+804,Ribeiro,Pereira
+805,Pacheco Pires e Filhos,Correia do Campo
+806,da Mata Nunes S.A.,Abreu Grande
+807,Cardoso Pacheco S/A,da Rocha
+808,Caldeira - ME,Gonçalves Verde
+809,Gonçalves,Ribeiro
+810,Barros S.A.,Mendonça de Sousa
+811,Correia e Filhos,Moraes
+812,Machado Azevedo - EI,Câmara
+813,Freitas Mendes - ME,Silveira
+814,da Rosa e Filhos,Abreu de Cunha
+815,Oliveira - EI,Cunha
+816,Fogaça,Peixoto da Mata
+817,Sousa,Siqueira
+818,Sousa,Montenegro
+819,Vasconcelos,Sousa
+820,Camargo,Pimenta
+821,Azevedo,Carvalho
+822,Fernandes da Rosa Ltda.,Sá da Prata
+823,Sousa,Freitas do Oeste
+824,Moura Moura - EI,Dias de Costela
+825,Novaes,Pastor
+826,Cassiano,Pinto do Oeste
+827,Santos,Gonçalves de Teixeira
+828,Albuquerque S.A.,Machado
+829,da Rosa,Rios Verde
+830,Nascimento Abreu Ltda.,Gomes
+831,Moraes,Pacheco da Prata
+832,Vargas - ME,Cunha do Oeste
+833,Azevedo da Paz S.A.,Marques
+834,Siqueira,Montenegro
+835,Sá,Moura Paulista
+836,Sousa - EI,da Paz da Praia
+837,Correia,da Mata
+838,Peixoto,Melo das Flores
+839,Moraes,Mendonça
+840,Cavalcante,Nunes
+841,Azevedo Nunes e Filhos,Ribeiro de Gomes
+842,Moura,Sampaio
+843,Ramos Jesus - ME,Barbosa
+844,da Rosa,Ferreira
+845,da Paz,da Cruz de Fogaça
+846,Montenegro Albuquerque S/A,Gomes
+847,Cavalcanti Azevedo Ltda.,Barros
+848,da Luz Ltda.,Melo
+849,Fernandes,Pimenta
+850,Silva Oliveira - ME,Santos
+851,da Costa Teixeira Ltda.,Aragão
+852,Machado - ME,Moura
+853,Araújo Ltda.,Macedo
+854,Fonseca Ltda.,Silveira de Ramos
+855,Abreu - EI,Cunha
+856,Viana,Alves
+857,Lima,da Rosa Alegre
+858,Novaes,Brito
+859,da Rosa,Cardoso
+860,Fernandes e Filhos,Rezende das Flores
+861,Barros Pires Ltda.,Garcia
+862,Aparecida - EI,Borges do Amparo
+863,Novais,Sampaio do Campo
+864,Farias,Costela
+865,Jesus,Machado do Norte
+866,Novais - ME,da Costa
+867,Campos,Sampaio de da Rocha
+868,Gonçalves,Rodrigues
+869,da Mota,Nunes de Minas
+870,Moreira S.A.,Cassiano Alegre
+871,Abreu,Campos de Machado
+872,Silva Pires S/A,Pacheco do Norte
+873,Caldeira - ME,Fernandes do Campo
+874,Pires,Leão do Campo
+875,Dias da Luz S/A,Lima
+876,Silveira,Moura do Norte
+877,Cassiano - ME,Pastor de Montenegro
+878,Martins,Rezende de da Rocha
+879,Brito Costa Ltda.,Cunha da Mata
+880,Sá,Rocha
+881,Camargo - ME,Duarte
+882,Castro,Nogueira
+883,Rocha,Fernandes Verde
+884,Azevedo Moura Ltda.,Cassiano do Sul
+885,Carvalho,Jesus de Sales
+886,Barros,Moreira da Prata
+887,Melo,da Paz do Galho
+888,das Neves Cavalcante Ltda.,Silveira
+889,da Cruz Vasconcelos S.A.,Andrade
+890,Barros Duarte S.A.,Fonseca
+891,Cirino,da Rocha
+892,Rios Brito S.A.,Casa Grande
+893,Nunes - ME,Machado da Mata
+894,Rios Gonçalves - ME,Barros de Dias
+895,Moreira,Duarte
+896,Farias,Fonseca
+897,Azevedo - EI,Guerra da Mata
+898,Mendes Ltda.,Montenegro
+899,Sales,Rezende dos Dourados
+900,Pereira S/A,Pacheco
+901,da Paz,Siqueira
+902,Vieira,Moura
+903,Freitas,Cavalcanti Verde
+904,Sousa,Pereira
+905,da Costa Nunes S.A.,Duarte
+906,Martins e Filhos,das Neves Verde
+907,Rios,Leão
+908,Pinto - EI,da Luz da Mata
+909,Caldeira,Albuquerque
+910,Cirino Pereira - ME,Fonseca Alegre
+911,da Mata S.A.,da Costa do Norte
+912,Costela e Filhos,Fernandes de Rios
+913,Nogueira e Filhos,Ferreira
+914,Castro Porto Ltda.,Porto
+915,das Neves,Cunha
+916,Guerra Lima - EI,Rios de Minas
+917,Montenegro,Barros Grande
+918,Leão S/A,Alves Alegre
+919,Silveira,Porto
+920,Carvalho,Vieira de Marques
+921,Moura,Fernandes
+922,Campos e Filhos,da Cunha da Mata
+923,Rios,Aparecida Verde
+924,Sá,Leão da Serra
+925,Vargas - ME,Pacheco do Oeste
+926,Jesus - ME,Gomes de Souza
+927,das Neves,Sampaio Paulista
+928,Ramos,Siqueira
+929,Marques - ME,Novaes do Amparo
+930,Farias Marques Ltda.,Azevedo
+931,Cunha - EI,Pimenta Grande
+932,Vasconcelos,das Neves
+933,Farias S/A,Cavalcante do Norte
+934,Casa Grande e Filhos,Lopes
+935,Machado S.A.,Pacheco
+936,Porto,Freitas Paulista
+937,Gomes Peixoto S.A.,Ferreira
+938,Costa,Peixoto
+939,Fernandes,Garcia do Amparo
+940,Moura,da Cruz Alegre
+941,Melo,Almeida do Galho
+942,Montenegro S/A,Costela
+943,Caldeira,das Neves Verde
+944,Andrade Moura S.A.,Silva
+945,Nogueira,Melo
+946,Alves S/A,Farias
+947,da Rocha Borges S/A,Cardoso de Freitas
+948,Pimenta,Aparecida Grande
+949,da Rocha,Borges de Correia
+950,Melo,Rezende
+951,Lopes,Andrade
+952,Castro,Costa
+953,Carvalho,da Mota
+954,Dias,Santos de Minas
+955,Nascimento,Siqueira
+956,Abreu,Costela de Barbosa
+957,Ramos,Mendes Grande
+958,Gomes - ME,Gomes da Serra
+959,Guerra Sampaio S.A.,Ramos
+960,Brito,Nogueira
+961,Leão Andrade Ltda.,Costa de Minas
+962,Porto Aparecida - ME,Correia
+963,Farias,Farias
+964,Fernandes S/A,Vargas Verde
+965,Leão,Camargo
+966,Moraes Fernandes S/A,Garcia
+967,Sampaio,Rocha
+968,Nogueira,Sales
+969,Machado Gomes S/A,Aparecida da Mata
+970,Cardoso,da Paz de Pastor
+971,Freitas Barbosa - EI,da Cunha
+972,Ramos Silva S.A.,Gomes de Goiás
+973,Freitas Peixoto e Filhos,Moura
+974,Almeida e Filhos,Viana das Pedras
+975,Montenegro S/A,Moreira
+976,Santos,Monteiro
+977,Rocha Ltda.,Jesus
+978,Castro da Conceição - EI,Rodrigues de da Cunha
+979,Guerra,Jesus
+980,Moreira,da Rosa da Mata
+981,Novaes S.A.,Sousa da Prata
+982,Costa,Costa da Prata
+983,Pimenta S.A.,Cassiano do Campo
+984,Martins,Fogaça
+985,Barros e Filhos,da Mota
+986,Sá,Melo
+987,Rodrigues Carvalho S/A,Costa
+988,da Mota,Araújo do Sul
+989,da Conceição,Barros
+990,Moura - ME,Monteiro dos Dourados
+991,da Rosa Alves - ME,Pimenta de Pinto
+992,Fonseca Barbosa - EI,Leão do Galho
+993,Leão Cassiano - ME,Carvalho Verde
+994,Fogaça Machado e Filhos,Leão
+995,Jesus Moraes - ME,Costa
+996,Andrade Melo S.A.,Barros
+997,Cunha S/A,Souza Paulista
+998,Aragão,Gonçalves de Goiás
+999,Lima,Lopes do Amparo
+1000,Silva,Macedo de Carvalho
+1001,Duarte,Campos
+1002,Cavalcante Gonçalves - EI,Pinto do Norte
+1003,Ribeiro Ltda.,Peixoto da Prata
+1004,Lopes - EI,Viana Verde
+1005,Moura - EI,da Cunha de Pinto
+1006,Barbosa Souza S/A,Araújo Verde
+1007,Ribeiro,Pacheco
+1008,Pastor Ltda.,Leão das Flores
+1009,da Luz Sampaio S/A,Cardoso
+1010,Cunha,da Paz da Mata
+1011,Sales Lima S/A,Alves de Gomes
+1012,Mendonça,Almeida
+1013,Cirino,Pastor do Sul
+1014,Lima Cirino - EI,das Neves
+1015,Siqueira S/A,Cunha
+1016,Andrade,Cunha
+1017,Monteiro,Sousa
+1018,Cavalcanti Farias S.A.,Peixoto da Mata
+1019,Pinto,da Costa do Norte
+1020,Santos,Duarte das Pedras
+1021,da Costa Mendes S/A,Moraes de Vieira
+1022,Pereira,Duarte
+1023,Correia Novais - EI,Sá
+1024,Vieira Peixoto S.A.,Dias
+1025,Cirino,Albuquerque
+1026,Carvalho S/A,Lopes
+1027,Barros,Leão
+1028,Macedo Monteiro S/A,Gomes
+1029,Pires S/A,Carvalho de Goiás
+1030,Sales,Fernandes da Serra
+1031,Santos,Nogueira de Lima
+1032,Leão e Filhos,Cassiano das Flores
+1033,Aragão,Oliveira
+1034,Mendes,Barbosa
+1035,Pereira,Borges
+1036,Sá S.A.,Vargas do Oeste
+1037,Nogueira Novaes Ltda.,Rios de Camargo
+1038,Rocha,Cassiano de Goiás
+1039,Leão S.A.,Câmara
+1040,Teixeira Campos - EI,Borges de Duarte
+1041,Camargo Casa Grande Ltda.,Cardoso
+1042,Sampaio - EI,Caldeira de Barros
+1043,Vieira Cardoso e Filhos,Cirino Grande
+1044,Souza Ltda.,Araújo do Oeste
+1045,Barros,Vasconcelos
+1046,Ribeiro e Filhos,Pacheco de Peixoto
+1047,Costa Nunes S/A,Ferreira
+1048,Câmara,Azevedo da Serra
+1049,Costela - EI,Gomes de Sousa
+1050,Vasconcelos Ltda.,Vasconcelos
+1051,Fogaça - EI,Nogueira de da Paz
+1052,Correia,Brito das Pedras
+1053,Rios S.A.,Sales do Oeste
+1054,Cavalcanti Montenegro - ME,Nogueira
+1055,Melo,Azevedo
+1056,Guerra,Nogueira
+1057,Alves - ME,da Mata do Sul
+1058,Pastor,da Rocha
+1059,Teixeira S.A.,Fernandes do Norte
+1060,Pinto,Duarte
+1061,Campos,Brito das Pedras
+1062,Nunes Lopes S/A,Ramos
+1063,Porto,Marques dos Dourados
+1064,das Neves Ltda.,Alves
+1065,Vieira S/A,Cirino
+1066,Moraes,Carvalho de Pacheco
+1067,Monteiro,Vieira
+1068,Sales,Correia
+1069,Mendes Duarte - ME,da Mota da Mata
+1070,Araújo,Albuquerque de Goiás
+1071,Aparecida,Freitas de da Conceição
+1072,Ribeiro,Novais do Oeste
+1073,Montenegro Machado S/A,da Mata Alegre
+1074,Almeida,Porto
+1075,Cavalcanti - ME,Pinto
+1076,Campos Cassiano - EI,da Rosa
+1077,da Conceição - ME,da Mata
+1078,da Costa,Moraes
+1079,Cavalcante,Costa
+1080,Borges Fernandes e Filhos,Porto de Araújo
+1081,Campos,Jesus da Prata
+1082,Rodrigues - EI,Sá do Oeste
+1083,Guerra Silveira S.A.,Barbosa
+1084,da Paz - ME,Leão
+1085,Leão Ltda.,Nunes dos Dourados
+1086,Barros Ltda.,Lima Paulista
+1087,Garcia,Albuquerque
+1088,Pereira,Farias
+1089,Casa Grande da Mata Ltda.,Sales do Norte
+1090,Brito,Sales
+1091,Nogueira e Filhos,Abreu dos Dourados
+1092,Machado,Pinto Verde
+1093,Barros,Porto
+1094,Caldeira,Vasconcelos
+1095,Farias Aparecida - ME,Fonseca do Norte
+1096,Novaes,Teixeira Alegre
+1097,Guerra Barros S/A,Martins
+1098,Pacheco,Rios
+1099,Moreira S/A,Montenegro
+1100,Rocha Santos e Filhos,da Cunha de Costa
+1101,Souza,Fonseca
+1102,Nogueira Moraes - ME,Marques Alegre
+1103,Sales,Albuquerque
+1104,Almeida Azevedo S.A.,Cardoso
+1105,Rezende,Ferreira do Amparo
+1106,Barros,Fernandes
+1107,Rezende S/A,Correia
+1108,Pacheco Ltda.,Sales do Oeste
+1109,Câmara Vargas - ME,Ramos de Câmara
+1110,Sales Cardoso - EI,Gonçalves das Flores
+1111,Duarte,Mendonça do Sul
+1112,Mendes,Duarte das Flores
+1113,das Neves,Azevedo Grande
+1114,Vieira S.A.,Pacheco da Mata
+1115,Melo,Cavalcante das Flores
+1116,das Neves Castro - EI,Monteiro
+1117,Pinto,Gonçalves
+1118,Rezende Marques S.A.,Rodrigues
+1119,Farias,Souza
+1120,Fogaça Santos S.A.,Porto
+1121,Camargo,da Paz de Pereira
+1122,Marques Pacheco - ME,Nascimento da Mata
+1123,Costela,Campos Alegre
+1124,Cassiano Fogaça Ltda.,Viana
+1125,Cardoso - EI,Vieira
+1126,Freitas Ltda.,Oliveira do Amparo
+1127,Brito,Borges de Casa Grande
+1128,Pastor Sales S.A.,Barros
+1129,Moraes - ME,Nascimento das Pedras
+1130,Vargas Rodrigues S.A.,Barbosa
+1131,da Rosa S.A.,Ribeiro de Fogaça
+1132,Peixoto Nunes - ME,Ramos Paulista
+1133,Aragão e Filhos,Pires
+1134,da Mota,Vasconcelos
+1135,Lima - ME,Alves Paulista
+1136,Teixeira S/A,Rodrigues de da Mota
+1137,Farias,Casa Grande
+1138,Peixoto S/A,Mendonça
+1139,Melo Cassiano S.A.,da Conceição de Nascimento
+1140,Correia Barbosa Ltda.,da Cruz Verde
+1141,Gonçalves Rezende S/A,Ribeiro de Vargas
+1142,Camargo S/A,da Cunha
+1143,Garcia Campos S.A.,da Luz das Pedras
+1144,Rezende,Silva Paulista
+1145,Pires,Rodrigues das Pedras
+1146,Caldeira e Filhos,Pinto dos Dourados
+1147,Albuquerque,Carvalho
+1148,Lopes,da Cruz
+1149,Melo S/A,Costela
+1150,Andrade S/A,Lima de Vargas
+1151,da Mota,Câmara
+1152,Pinto,da Mota
+1153,Pereira Campos S.A.,Nunes
+1154,Garcia,Teixeira
+1155,Leão S/A,Martins de Minas
+1156,Rocha Ltda.,Teixeira
+1157,Novais Brito S.A.,Aparecida do Galho
+1158,Brito Vargas e Filhos,Aragão
+1159,Costela e Filhos,Camargo do Norte
+1160,Fernandes e Filhos,Brito das Flores
+1161,Camargo - EI,Freitas
+1162,da Cunha Ferreira Ltda.,Rocha da Prata
+1163,Alves,Pereira
+1164,Carvalho,Mendonça
+1165,Marques e Filhos,Pacheco do Oeste
+1166,Siqueira,Correia de Pastor
+1167,das Neves Ltda.,Fogaça
+1168,Rezende,Garcia
+1169,Barbosa,Leão
+1170,Marques Silveira e Filhos,Mendes
+1171,Rezende,Novaes do Amparo
+1172,Carvalho,da Mota
+1173,Gomes,da Mota
+1174,Araújo,da Costa
+1175,das Neves S/A,Novais
+1176,Montenegro Campos - EI,Fonseca
+1177,Moura,Campos do Campo
+1178,Aragão,Casa Grande
+1179,Nascimento e Filhos,Pires da Praia
+1180,Casa Grande,Aragão das Flores
+1181,Moreira,Mendes de Mendes
+1182,Ferreira Garcia Ltda.,da Costa Grande
+1183,da Cruz,Brito do Norte
+1184,da Luz da Cunha e Filhos,Sá de Dias
+1185,Duarte,Farias do Campo
+1186,Mendes,Montenegro das Flores
+1187,Aragão,Duarte
+1188,Fernandes - EI,Pires
+1189,Jesus,Macedo
+1190,Caldeira e Filhos,Mendes
+1191,Freitas S/A,Silveira
+1192,Fogaça - EI,Vasconcelos
+1193,Moreira Silveira Ltda.,Santos do Sul
+1194,Cavalcante,Porto
+1195,da Cruz,Santos
+1196,Duarte,Rios da Prata
+1197,Barbosa,Moura dos Dourados
+1198,Nogueira S/A,Machado
+1199,Santos,Cassiano de Silveira
+1200,Dias Alves e Filhos,Moraes de Goiás
+1201,Nascimento Ltda.,Pacheco do Sul
+1202,Guerra S/A,Moreira do Oeste
+1203,Carvalho e Filhos,Caldeira
+1204,Leão,Moraes
+1205,Souza,Costa
+1206,Brito,Sá
+1207,Gomes S.A.,Cavalcante
+1208,Fernandes,Pastor
+1209,Albuquerque,Mendonça de Andrade
+1210,Souza,Macedo
+1211,Gonçalves Andrade Ltda.,Leão
+1212,Casa Grande,Novaes
+1213,Leão e Filhos,Cavalcanti do Galho
+1214,Andrade,Pereira
+1215,Silveira Jesus e Filhos,Sampaio das Flores
+1216,Souza,Novaes dos Dourados
+1217,Duarte,da Rocha
+1218,da Rocha Ltda.,Garcia das Flores
+1219,Novais da Mata e Filhos,Mendonça da Serra
+1220,Siqueira Rios - EI,da Mata
+1221,Jesus,Novais da Praia
+1222,Mendes Ferreira Ltda.,Costela do Galho
+1223,Castro,Correia do Campo
+1224,Dias Câmara e Filhos,Cunha dos Dourados
+1225,Melo,Casa Grande do Sul
+1226,da Rosa Ltda.,Rezende
+1227,da Mota,Rocha da Mata
+1228,Teixeira,da Cruz
+1229,Carvalho S.A.,Moura
+1230,Ribeiro Carvalho e Filhos,Peixoto dos Dourados
+1231,da Luz e Filhos,Pinto
+1232,Abreu S/A,Martins Alegre
+1233,Rocha,Martins das Pedras
+1234,Siqueira e Filhos,Guerra
+1235,Moreira,Gomes de Macedo
+1236,Barros Moraes - ME,Aragão Verde
+1237,Campos Silveira - ME,Cunha
+1238,Alves - EI,Rezende de da Mota
+1239,Silveira e Filhos,Monteiro Verde
+1240,Cunha Guerra - ME,Vieira
+1241,da Mota,da Paz
+1242,Correia Ltda.,Barbosa das Pedras
+1243,Farias Moreira S/A,Vargas das Pedras
+1244,Correia e Filhos,Marques da Mata
+1245,Freitas,das Neves do Sul
+1246,Marques,Peixoto da Serra
+1247,Oliveira Costela S.A.,Silva
+1248,Almeida Rios S/A,Rezende do Sul
+1249,Vieira Marques S.A.,da Rocha do Campo
+1250,Vargas Camargo - ME,da Luz
+1251,Câmara e Filhos,da Conceição
+1252,Porto,da Rosa de Moraes
+1253,Guerra,Gonçalves do Campo
+1254,Moreira,da Mota
+1255,Novaes,Pereira do Amparo
+1256,Pastor Teixeira - ME,da Mota Grande
+1257,Rodrigues S/A,Silva do Oeste
+1258,Oliveira Almeida S/A,Rezende
+1259,Borges da Mota S/A,Farias das Pedras
+1260,Duarte Câmara S.A.,Ribeiro de Nogueira
+1261,Pastor,Rezende
+1262,Cirino,Monteiro
+1263,Moreira,Alves
+1264,Moura,Sousa
+1265,Moreira - EI,Novaes
+1266,Carvalho,Caldeira
+1267,Sales,Montenegro
+1268,Castro,Campos
+1269,Aparecida da Cunha S.A.,Melo
+1270,Montenegro - ME,Sales
+1271,Monteiro,Viana Grande
+1272,Teixeira da Cruz - ME,Caldeira
+1273,Borges,Correia
+1274,Melo - EI,Garcia
+1275,Marques da Conceição - EI,da Conceição
+1276,Correia Siqueira Ltda.,Costa
+1277,Albuquerque,Correia
+1278,Sales,da Cunha de Goiás
+1279,Ferreira e Filhos,Nunes
+1280,Sales,Silveira
+1281,Borges S/A,Lopes das Flores
+1282,Mendonça,Pastor
+1283,Araújo,Montenegro
+1284,da Cunha Almeida Ltda.,Silva
+1285,Pereira e Filhos,Ramos da Prata
+1286,Sousa Lima e Filhos,Fernandes
+1287,da Costa,Vieira
+1288,Vasconcelos,Barros de Martins
+1289,Abreu,Costa Alegre
+1290,Sampaio Peixoto - EI,Barbosa das Pedras
+1291,Ferreira S.A.,Cavalcanti
+1292,Fogaça - EI,Peixoto
+1293,Marques,Farias
+1294,Nascimento,Mendonça
+1295,Cavalcanti Siqueira S/A,Fogaça de Cassiano
+1296,Albuquerque,da Conceição
+1297,Freitas S.A.,Câmara de Goiás
+1298,Vasconcelos,Pimenta
+1299,Correia,Nogueira
+1300,Cardoso e Filhos,Macedo
+1301,Sales,Mendes
+1302,Fogaça,Vasconcelos de Correia
+1303,da Mota da Rosa e Filhos,Leão
+1304,Nunes da Rocha - EI,Costela
+1305,Melo,Fernandes
+1306,Silveira,Aparecida da Mata
+1307,da Rocha Moura e Filhos,Pinto
+1308,Lima,Fonseca
+1309,da Costa,da Costa das Pedras
+1310,Gonçalves Rios S.A.,Gonçalves de Minas
+1311,da Cruz Andrade S.A.,Leão de Minas
+1312,Mendonça Novaes Ltda.,Lima do Norte
+1313,Farias S.A.,Martins do Amparo
+1314,Viana Leão - EI,da Rosa de Cavalcante
+1315,Rocha e Filhos,Viana de Minas
+1316,Barros,da Rosa
+1317,Guerra,Barbosa do Campo
+1318,da Mota Fonseca - EI,Fernandes do Galho
+1319,Freitas Oliveira Ltda.,Nascimento
+1320,Nascimento Fogaça S/A,Andrade do Oeste
+1321,da Costa,Vieira Alegre
+1322,Freitas Moraes S/A,Alves
+1323,Lopes,Porto da Serra
+1324,Vargas,Nascimento Alegre
+1325,Ribeiro S.A.,Guerra de Abreu
+1326,Cardoso,Vargas dos Dourados
+1327,Moura,Nascimento de Caldeira
+1328,Pereira,Souza Alegre
+1329,Almeida S.A.,da Rocha
+1330,Aparecida e Filhos,Mendonça dos Dourados
+1331,da Luz Rios e Filhos,da Paz
+1332,Albuquerque,Ribeiro
+1333,Machado,Gonçalves
+1334,Fernandes,Machado
+1335,Novais,Gomes de Santos
+1336,da Cunha Nascimento - ME,Pacheco do Galho
+1337,Sá Moraes - EI,Silva
+1338,Cardoso,Aragão
+1339,Alves,Fogaça da Serra
+1340,Carvalho Castro S/A,Sá dos Dourados
+1341,Rios S/A,Araújo Grande
+1342,da Cunha,Castro Grande
+1343,Peixoto,Melo
+1344,Melo,Monteiro
+1345,Cassiano,Nogueira
+1346,Correia S.A.,Almeida
+1347,Barros,Albuquerque da Serra
+1348,da Costa,Melo das Flores
+1349,Sampaio,Novaes
+1350,Ferreira Carvalho S.A.,Moreira do Sul
+1351,Campos - EI,Ramos de Goiás
+1352,Câmara,Melo
+1353,Rocha,Fonseca de Cardoso
+1354,Pereira - ME,Fonseca
+1355,Almeida Cassiano S/A,Rodrigues
+1356,Porto Ramos e Filhos,Caldeira do Norte
+1357,Farias,Leão
+1358,Pimenta,Mendonça
+1359,Costa e Filhos,Teixeira Alegre
+1360,Gonçalves,Melo Paulista
+1361,Moura,Sousa do Galho
+1362,Barbosa e Filhos,Araújo do Amparo
+1363,Casa Grande Ltda.,Jesus
+1364,Fonseca,Montenegro das Pedras
+1365,Araújo,Duarte de Novais
+1366,Garcia,Souza
+1367,Araújo Cirino S/A,Pacheco
+1368,Peixoto,Ribeiro
+1369,da Conceição,Campos
+1370,Macedo,Ramos
+1371,Machado,Almeida
+1372,Almeida,Garcia
+1373,Sousa da Rosa S.A.,Rezende do Amparo
+1374,Moreira,Araújo
+1375,Nascimento S.A.,Costela
+1376,Fogaça,Cassiano
+1377,Araújo Aparecida S/A,Pires de Moraes
+1378,da Rosa,Moreira
+1379,Novaes Martins Ltda.,Caldeira
+1380,Campos,Nogueira
+1381,Porto S/A,da Conceição de da Rocha
+1382,da Rosa - EI,Teixeira da Mata
+1383,Borges Cirino e Filhos,Vargas
+1384,Costa,Santos da Prata
+1385,Oliveira,Guerra dos Dourados
+1386,Cirino Ltda.,Brito
+1387,Rezende,Oliveira Grande
+1388,Cunha Melo Ltda.,Sales de Caldeira
+1389,Peixoto,Pinto do Campo
+1390,da Costa Brito - EI,Marques da Praia
+1391,Gonçalves da Rosa S.A.,Costela
+1392,Cardoso,Cassiano
+1393,Rezende,Pires
+1394,Correia Ltda.,Oliveira de Almeida
+1395,Câmara Camargo e Filhos,Fernandes da Prata
+1396,Fernandes Ltda.,Sá
+1397,Moraes e Filhos,Borges de Moura
+1398,Cardoso S/A,Vargas da Serra
+1399,Pereira da Costa - EI,Gomes do Oeste
+1400,Guerra Ramos - ME,da Rosa
+1401,Rodrigues,Araújo
+1402,Azevedo,Cunha do Galho
+1403,da Cunha Silveira S/A,da Mota
+1404,Brito Brito S/A,Freitas
+1405,Farias,da Cunha
+1406,Barros,Melo
+1407,Novaes - EI,Albuquerque
+1408,Oliveira S/A,Vargas
+1409,Carvalho - ME,Ribeiro Alegre
+1410,Novais - EI,Ramos de Macedo
+1411,Castro,Albuquerque de Nascimento
+1412,Cardoso Pires - EI,Pastor
+1413,Pacheco,Casa Grande do Campo
+1414,Pires,Fernandes Grande
+1415,Azevedo - EI,Nascimento
+1416,Camargo S/A,Peixoto de Almeida
+1417,Martins e Filhos,Macedo
+1418,Abreu Oliveira S/A,Sousa da Prata
+1419,Rodrigues,Moreira das Flores
+1420,Rocha S.A.,Cardoso Grande
+1421,Pinto - ME,Pires de Sampaio
+1422,Cardoso,Pacheco Alegre
+1423,Moura,Sales de Novaes
+1424,Rezende e Filhos,Aragão
+1425,Albuquerque Ramos Ltda.,Rocha
+1426,Cardoso - EI,Cavalcante
+1427,Câmara Ltda.,Pastor Alegre
+1428,Cardoso da Mata - ME,Pimenta de Pastor
+1429,Machado S/A,Jesus
+1430,Pacheco,Freitas
+1431,Correia e Filhos,das Neves
+1432,da Conceição,Pereira
+1433,Silva,Alves de Leão
+1434,Caldeira,Mendes
+1435,Rezende,Azevedo de Abreu
+1436,Caldeira,Novaes de Martins
+1437,Fogaça,da Luz das Flores
+1438,Moura,Azevedo
+1439,da Luz,Pacheco da Praia
+1440,Gonçalves Cassiano e Filhos,da Rosa de Sampaio
+1441,Farias,da Luz do Norte
+1442,Pastor S.A.,Nogueira do Galho
+1443,Duarte - EI,Freitas Grande
+1444,Melo,Campos
+1445,Araújo,Moraes da Mata
+1446,Ribeiro - ME,Vasconcelos do Norte
+1447,Pimenta Rios - EI,Sales do Sul
+1448,Viana,Pacheco
+1449,Campos - ME,Marques
+1450,da Conceição S/A,Martins
+1451,Brito Rodrigues S.A.,Novais Alegre
+1452,Nunes - ME,Novais das Flores
+1453,Nunes,Dias
+1454,Silveira,Azevedo
+1455,Montenegro S/A,Duarte Verde
+1456,Rios,Sá
+1457,Barbosa Viana - EI,Peixoto da Mata
+1458,da Mata,Rocha de da Conceição
+1459,Melo - EI,Camargo dos Dourados
+1460,Câmara - EI,da Conceição de Moreira
+1461,Cavalcante Pacheco e Filhos,da Conceição do Sul
+1462,Rezende S.A.,Abreu Paulista
+1463,Borges Cassiano - ME,Sampaio de da Costa
+1464,da Luz Albuquerque S/A,Jesus
+1465,Ribeiro,Costa da Serra
+1466,Camargo,Aparecida de Goiás
+1467,Nogueira,Campos de Andrade
+1468,Silva,Farias de Goiás
+1469,Costa S/A,Pires
+1470,Lopes,Pastor de Rocha
+1471,Fonseca Camargo e Filhos,Peixoto
+1472,da Rosa,Nunes do Sul
+1473,Moura,Ferreira
+1474,Leão Carvalho S/A,Correia
+1475,Rios,Azevedo do Campo
+1476,Ramos S.A.,Rezende do Galho
+1477,Camargo Ltda.,Moreira Alegre
+1478,Carvalho,Dias da Praia
+1479,Rodrigues,Moura
+1480,Moura,da Paz da Praia
+1481,Jesus Sá - ME,Araújo
+1482,Rodrigues Aragão S.A.,Lopes
+1483,Fernandes S/A,Ramos do Norte
+1484,da Cruz - EI,Cunha de Machado
+1485,Albuquerque Pacheco Ltda.,Câmara Verde
+1486,da Rosa,da Costa
+1487,Sales da Conceição S/A,Rezende
+1488,Marques - EI,Teixeira do Sul
+1489,da Mata - EI,Machado
+1490,Caldeira,da Mota
+1491,Santos Gonçalves S/A,Porto de Andrade
+1492,Barbosa e Filhos,Nascimento de Moura
+1493,Ramos Farias - ME,Gonçalves
+1494,Duarte,da Mota da Mata
+1495,Sá S/A,Barbosa
+1496,da Cunha,Novais do Sul
+1497,Gomes,Azevedo
+1498,Aragão,Costa de Sales
+1499,Duarte e Filhos,Monteiro
+1500,Pimenta,da Cruz
+1501,Vieira da Cruz - EI,das Neves do Galho
+1502,Machado Câmara Ltda.,Pacheco de Peixoto
+1503,Ramos - ME,Lopes
+1504,Dias,Santos
+1505,da Mata Almeida S.A.,Novaes
+1506,Silveira,Ferreira de da Rosa
+1507,Pacheco Cunha Ltda.,Caldeira
+1508,Monteiro Correia Ltda.,Pimenta
+1509,Melo Fonseca Ltda.,da Mota do Amparo
+1510,Brito,Azevedo do Amparo
+1511,Barbosa Abreu - ME,Jesus
+1512,Mendonça,Rocha da Prata
+1513,Campos,Silveira
+1514,Castro,Carvalho
+1515,Ferreira Castro - EI,Silva
+1516,Sampaio,Machado Verde
+1517,Dias,Vieira da Serra
+1518,da Rocha,Almeida
+1519,Leão,Sá Paulista
+1520,Cardoso S/A,Gonçalves de Minas
+1521,Nogueira,Monteiro
+1522,Cavalcanti,Rocha do Norte
+1523,Garcia,Vieira de da Paz
+1524,Santos,Moreira
+1525,Moreira,Borges
+1526,Peixoto e Filhos,Brito
+1527,Camargo - EI,Camargo
+1528,Campos,Cardoso
+1529,Duarte - ME,Rocha
+1530,da Rocha,Moraes de Melo
+1531,Rezende,da Rocha Alegre
+1532,Aragão,Fonseca de da Rocha
+1533,Borges Vargas e Filhos,Sales de Goiás
+1534,da Luz Rios S/A,Mendes de da Cruz
+1535,Peixoto Guerra S.A.,da Mota
+1536,Sá Ltda.,da Rocha do Campo
+1537,Pinto Moura S.A.,Dias
+1538,Cavalcante S.A.,Pereira da Serra
+1539,Costa Costa Ltda.,Casa Grande
+1540,Melo,Porto de Goiás
+1541,Fonseca S.A.,Rezende
+1542,Freitas,da Cunha
+1543,Castro,Siqueira de da Paz
+1544,Vieira e Filhos,Jesus
+1545,Montenegro S/A,Jesus de Goiás
+1546,Fogaça,Abreu
+1547,Abreu,Rocha das Pedras
+1548,Ribeiro S/A,Lima
+1549,Ribeiro,Martins
+1550,Alves,Aragão dos Dourados
+1551,das Neves - EI,Nunes
+1552,Mendes - ME,Sousa das Pedras
+1553,Sá Guerra e Filhos,Câmara das Flores
+1554,Monteiro,Caldeira
+1555,da Cunha,Farias
+1556,Martins,Castro
+1557,Borges,Sales
+1558,Viana,Caldeira
+1559,Sampaio,da Mata
+1560,Campos,Garcia
+1561,Vieira,da Conceição das Pedras
+1562,Leão,Moraes
+1563,Rocha e Filhos,Barbosa
+1564,Jesus,da Luz
+1565,da Mota,Cunha
+1566,Sales,Vasconcelos
+1567,Dias,Mendonça
+1568,Campos,Silveira das Pedras
+1569,das Neves da Costa - EI,Campos
+1570,Moraes - EI,Silveira das Flores
+1571,Albuquerque Dias - ME,Viana
+1572,Souza S/A,Pires
+1573,Mendonça,Novais de Carvalho
+1574,Pereira Albuquerque Ltda.,da Luz Alegre
+1575,Alves,Pacheco
+1576,Dias Macedo - EI,Rios
+1577,Fogaça,da Mota
+1578,Aparecida,Dias
+1579,Cassiano e Filhos,Ramos dos Dourados
+1580,Ferreira Ltda.,Nogueira do Oeste
+1581,Pires - ME,Marques do Oeste
+1582,Ramos,Mendes Paulista
+1583,Porto,Gonçalves
+1584,Brito e Filhos,Guerra do Campo
+1585,Viana Ltda.,Silva Verde
+1586,Guerra - ME,Dias de Goiás
+1587,Ribeiro das Neves Ltda.,Ramos
+1588,Barros,Oliveira da Serra
+1589,Rodrigues,Sá de Rios
+1590,Guerra,Gonçalves
+1591,Borges - ME,Pimenta
+1592,Sales,Fogaça dos Dourados
+1593,Cassiano da Rosa e Filhos,Fernandes
+1594,Gomes,Camargo
+1595,Farias Ltda.,Costela de Novaes
+1596,da Mota,Machado do Amparo
+1597,Moreira da Luz - ME,Moraes
+1598,Sampaio e Filhos,da Rocha
+1599,Ramos,Pimenta
+1600,Rios,Rezende
+1601,Albuquerque Moraes Ltda.,Duarte da Prata
+1602,Pires e Filhos,Moraes de Aparecida
+1603,Pacheco,Rodrigues
+1604,Cardoso,Viana
+1605,das Neves Cunha - EI,Garcia
+1606,Gonçalves,da Paz dos Dourados
+1607,Monteiro S.A.,Gonçalves
+1608,Pereira,Lopes
+1609,Azevedo,Cavalcanti
+1610,da Luz,da Rocha
+1611,Lopes Ltda.,Viana
+1612,Silveira Correia - ME,Costela do Oeste
+1613,Silveira Albuquerque S/A,Sousa
+1614,Jesus S/A,Cavalcanti
+1615,Duarte,Aragão de Fernandes
+1616,Pastor,Fernandes
+1617,Siqueira,Mendonça
+1618,Macedo Aragão e Filhos,Porto
+1619,Lima - EI,Duarte
+1620,Silva Oliveira - ME,Souza da Serra
+1621,Sales - ME,Pires de da Luz
+1622,Alves Fogaça e Filhos,Lima dos Dourados
+1623,Porto - EI,Cavalcanti de Minas
+1624,Pereira - EI,Aparecida
+1625,Gomes,Pires
+1626,da Cruz - ME,Porto
+1627,Nunes Guerra S/A,Alves do Norte
+1628,Garcia Vieira Ltda.,Brito
+1629,Lima,Macedo
+1630,Borges S.A.,Almeida Paulista
+1631,Montenegro Duarte e Filhos,da Rosa de da Mota
+1632,Sampaio S.A.,Guerra de Araújo
+1633,Duarte,Moura de Novaes
+1634,Nogueira,Brito de Sales
+1635,Leão Lima - EI,da Conceição
+1636,Casa Grande Machado - EI,Lima
+1637,da Rosa - EI,Novais
+1638,Sales das Neves S.A.,Sales de Minas
+1639,Caldeira Rezende - ME,Casa Grande
+1640,da Conceição da Cunha Ltda.,Gonçalves
+1641,Novaes Teixeira S.A.,Cassiano da Serra
+1642,Jesus,Teixeira da Serra
+1643,Alves,Casa Grande da Prata
+1644,Azevedo,Silva
+1645,das Neves - ME,Peixoto
+1646,Leão Fogaça - EI,Peixoto de Barbosa
+1647,Freitas Almeida - ME,Pinto do Oeste
+1648,Novaes,Machado
+1649,Sampaio - EI,Pacheco
+1650,Correia,Lima das Pedras
+1651,Siqueira - EI,Melo
+1652,Barbosa,Brito
+1653,Costa,Mendes
+1654,Leão S.A.,Lopes
+1655,Pinto,Nascimento
+1656,Albuquerque,Silva
+1657,Alves - EI,Rezende
+1658,Cirino,Cunha de Caldeira
+1659,Casa Grande,Cardoso
+1660,Farias,Marques
+1661,Viana,Fonseca Grande
+1662,da Rocha,Pires
+1663,Peixoto e Filhos,da Cunha
+1664,Mendonça,da Paz
+1665,Mendes,Duarte do Galho
+1666,Vargas,Pires das Flores
+1667,das Neves e Filhos,Ferreira de Goiás
+1668,Fonseca,Novaes
+1669,Vasconcelos Correia Ltda.,Rios do Oeste
+1670,Pires,Brito da Praia
+1671,Moreira,Vieira
+1672,Nogueira,Camargo de Minas
+1673,Nunes S/A,Vasconcelos
+1674,Martins,Machado
+1675,Silva Siqueira Ltda.,Moraes do Galho
+1676,Silva,Ramos
+1677,Aragão,da Costa
+1678,Nogueira S.A.,Albuquerque de Mendes
+1679,Fernandes,Sales da Serra
+1680,Sales Porto S.A.,Câmara
+1681,Souza,Barros
+1682,Caldeira,Leão do Oeste
+1683,Garcia,Câmara do Campo
+1684,Novaes,Rezende
+1685,da Rosa,Ribeiro
+1686,Castro - EI,Sampaio do Sul
+1687,Carvalho,Silveira do Sul
+1688,Pastor Fernandes S.A.,Costela do Galho
+1689,Aragão - ME,Rocha
+1690,das Neves Mendonça - EI,Marques Verde
+1691,Souza,Rodrigues da Mata
+1692,da Rocha S.A.,Lima de Pinto
+1693,Oliveira,Machado
+1694,Campos S.A.,Rodrigues
+1695,Cunha Rios S/A,Souza de Sampaio
+1696,das Neves e Filhos,Ramos
+1697,Mendes Correia - ME,Cunha do Sul
+1698,Alves,Santos
+1699,da Rocha das Neves Ltda.,Cavalcante
+1700,Souza S/A,Moraes
+1701,Pereira S.A.,Araújo
+1702,Andrade,da Costa do Galho
+1703,Casa Grande Porto S.A.,Albuquerque do Norte
+1704,Sousa,da Cunha
+1705,Aparecida,Lima
+1706,da Paz,Jesus
+1707,Pereira,Albuquerque
+1708,Lopes,Carvalho da Prata
+1709,Peixoto - EI,Pereira das Pedras
+1710,Pimenta Andrade - ME,das Neves de Cavalcante
+1711,Monteiro,da Conceição de Cirino
+1712,Cavalcante Carvalho S/A,Pimenta de Rezende
+1713,da Cruz - ME,Aragão
+1714,Casa Grande,Cavalcanti de Costela
+1715,Cunha - EI,Souza
+1716,Azevedo,da Luz do Sul
+1717,Ferreira e Filhos,Azevedo Paulista
+1718,da Rosa,Guerra Grande
+1719,Martins,Aragão do Norte
+1720,Novais,Viana de Goiás
+1721,Gomes,Moraes
+1722,Cavalcanti,Azevedo
+1723,Cavalcanti,Duarte dos Dourados
+1724,Pires - ME,Moraes
+1725,Costela,Pereira Paulista
+1726,da Luz,Ramos das Flores
+1727,Gomes Castro S.A.,Teixeira
+1728,Correia,Rocha Verde
+1729,Almeida,Rodrigues
+1730,Cassiano,Carvalho dos Dourados
+1731,Pires Viana Ltda.,Cunha da Serra
+1732,Pimenta S/A,Abreu
+1733,da Costa S/A,Rodrigues
+1734,Nunes,Souza da Mata
+1735,Pastor Martins - EI,Pacheco
+1736,Abreu,Costa
+1737,Araújo S/A,Viana de Ferreira
+1738,Almeida Alves S.A.,Moura da Praia
+1739,Pastor,Campos de Santos
+1740,Garcia,Gomes de Rios
+1741,Rezende - ME,Sales
+1742,Garcia das Neves - ME,Mendonça
+1743,Cardoso,Brito
+1744,Camargo,da Cunha
+1745,Jesus - ME,Pereira de Rezende
+1746,Garcia Castro e Filhos,Almeida
+1747,Cardoso,Moreira da Serra
+1748,Costa,Moura
+1749,Fonseca - ME,Melo de Sá
+1750,da Rocha,Farias
+1751,Cavalcante,Gomes de Fogaça
+1752,Dias - EI,Correia
+1753,Fonseca,Peixoto
+1754,Nascimento Ltda.,Cassiano das Flores
+1755,Silveira Cirino - EI,Sá do Sul
+1756,Abreu,Nunes
+1757,Vargas,Martins
+1758,Siqueira S.A.,Teixeira do Norte
+1759,Vargas Leão Ltda.,Santos Paulista
+1760,Brito,Pereira
+1761,Macedo - EI,Monteiro
+1762,Pastor,Costa
+1763,Sales Moreira Ltda.,da Costa
+1764,Moura,Garcia
+1765,Ferreira,Campos Verde
+1766,Brito,da Paz da Praia
+1767,Sousa Guerra S/A,Rezende do Galho
+1768,Montenegro,Teixeira
+1769,Pinto Fogaça S/A,Brito da Mata
+1770,Cardoso Barros S.A.,Lima Paulista
+1771,Cavalcante,Freitas
+1772,Moraes Siqueira Ltda.,Vasconcelos
+1773,Ribeiro e Filhos,Borges
+1774,Ribeiro Fogaça - ME,Pimenta da Mata
+1775,Costa - EI,Montenegro
+1776,Nascimento,Cavalcante de das Neves
+1777,Pereira,Montenegro de Cavalcante
+1778,Gomes - EI,Machado de Almeida
+1779,Fonseca Martins Ltda.,Machado das Pedras
+1780,Ribeiro,Siqueira
+1781,Correia Novaes e Filhos,das Neves de Pinto
+1782,das Neves Machado S/A,da Paz do Campo
+1783,Abreu Albuquerque Ltda.,Novaes Alegre
+1784,Brito S.A.,Pires
+1785,Duarte Sales - EI,Nogueira
+1786,Abreu,Melo do Amparo
+1787,da Cunha,Fernandes
+1788,Cirino,Moura
+1789,Rocha - ME,Porto
+1790,Almeida Moreira S/A,Sampaio
+1791,Aparecida,da Paz de Santos
+1792,Sampaio,Almeida Paulista
+1793,Freitas Teixeira Ltda.,Cavalcanti Paulista
+1794,Silveira,Caldeira
+1795,Sá,Cirino
+1796,Cirino S.A.,Mendonça
+1797,Andrade Sá - ME,Teixeira
+1798,Camargo - ME,Barros
+1799,Novais,Garcia da Praia
+1800,Sampaio S/A,Almeida
+1801,Aragão,Farias Grande
+1802,Farias,Farias
+1803,Costela - ME,Martins
+1804,Farias,Cirino
+1805,Gomes Caldeira - ME,da Mota de Goiás
+1806,Aragão,Dias
+1807,Pereira Ltda.,Carvalho de Pimenta
+1808,da Conceição - ME,Novaes Verde
+1809,Silva,Silveira
+1810,Albuquerque,Rios
+1811,Cirino,Barros
+1812,da Mata Rocha - EI,Martins
+1813,Pinto,Cardoso
+1814,Viana,Siqueira de Brito
+1815,Siqueira - EI,Guerra
+1816,Ferreira,Costa Paulista
+1817,Freitas,Barbosa
+1818,Montenegro,Nunes de Campos
+1819,Peixoto Abreu e Filhos,Costa Alegre
+1820,Oliveira Duarte - ME,Barbosa
+1821,Sousa,Moraes de Pires
+1822,Farias,Cavalcante Paulista
+1823,Nascimento,Lima do Campo
+1824,Vieira S.A.,Gomes
+1825,Fogaça e Filhos,Andrade da Prata
+1826,Gonçalves,Albuquerque
+1827,Araújo,Peixoto
+1828,Abreu S.A.,Mendonça de Silva
+1829,Gonçalves Nunes - EI,Mendes do Amparo
+1830,Casa Grande Sousa Ltda.,Oliveira da Mata
+1831,Carvalho,da Mota de Minas
+1832,Duarte - EI,Aragão dos Dourados
+1833,Lima,Moura
+1834,Macedo,da Mota
+1835,Moreira,Pereira do Galho
+1836,Campos,Castro Alegre
+1837,Sousa,Pinto de Pinto
+1838,Macedo,das Neves
+1839,Duarte,Pereira de Almeida
+1840,da Conceição,Fernandes
+1841,Barbosa,Ferreira
+1842,Ramos,Brito do Amparo
+1843,Pastor,da Costa
+1844,Pinto - ME,da Rocha
+1845,Araújo Guerra Ltda.,Vargas de Sá
+1846,Sales,Melo do Sul
+1847,Souza,Jesus de Marques
+1848,da Luz e Filhos,Vasconcelos
+1849,Silveira Mendonça S.A.,Câmara
+1850,Araújo,Sá do Campo
+1851,Nascimento,Novaes de Goiás
+1852,Freitas,Teixeira
+1853,Sampaio S/A,da Rocha da Mata
+1854,Teixeira,Fonseca Paulista
+1855,Souza,Leão de Casa Grande
+1856,Cardoso,Novaes
+1857,Souza - ME,Sá
+1858,Abreu da Luz - ME,Lopes de da Paz
+1859,Alves,Siqueira
+1860,Campos Pires e Filhos,Silva
+1861,Viana,Sousa da Praia
+1862,Guerra S/A,Jesus
+1863,Garcia,Câmara das Flores
+1864,das Neves,Marques
+1865,Moraes Teixeira S/A,Ramos
+1866,Cavalcanti - EI,Monteiro
+1867,Dias Pastor Ltda.,Farias de Farias
+1868,Cardoso,Ribeiro
+1869,Cirino,Martins
+1870,Novaes Leão S/A,Souza
+1871,da Luz,Dias de Camargo
+1872,Abreu S/A,Novais
+1873,Pastor Alves - ME,Barros
+1874,Câmara,Moreira
+1875,Rezende,Nascimento da Prata
+1876,Vargas,Rocha
+1877,Brito,Monteiro
+1878,Borges e Filhos,Lima
+1879,Nogueira,Barbosa das Pedras
+1880,Jesus - ME,da Cruz
+1881,da Rosa,da Cruz
+1882,da Rocha S.A.,Freitas
+1883,Macedo Jesus - EI,Sampaio
+1884,Aragão,Oliveira
+1885,Araújo Carvalho Ltda.,da Costa de Câmara
+1886,Santos S.A.,Vieira de Leão
+1887,Correia e Filhos,da Cruz
+1888,Câmara,Vieira do Norte
+1889,Cassiano Porto e Filhos,Jesus
+1890,Aparecida,da Mata
+1891,Guerra,Aparecida do Campo
+1892,Barbosa,Barros Paulista
+1893,Fonseca,Novais de Aparecida
+1894,Castro,Teixeira de Garcia
+1895,Sousa,Gomes das Pedras
+1896,Cassiano,Caldeira de da Luz
+1897,Brito S/A,Fogaça
+1898,Fonseca,Cirino da Praia
+1899,Oliveira,Sampaio
+1900,Rocha Novaes S/A,Cavalcanti
+1901,Rodrigues,Martins
+1902,Fogaça S/A,Sousa
+1903,Caldeira,Fonseca
+1904,Pastor,Ribeiro Verde
+1905,Nogueira,Azevedo de Azevedo
+1906,Siqueira da Rocha - ME,Brito de Aparecida
+1907,Oliveira Ribeiro - EI,Marques de Rodrigues
+1908,Teixeira,Borges
+1909,das Neves,Silveira das Pedras
+1910,Santos,Duarte dos Dourados
+1911,Almeida Vasconcelos - ME,Rezende dos Dourados
+1912,da Conceição,Sousa
+1913,Pimenta Sampaio Ltda.,Albuquerque
+1914,Cirino Ribeiro - EI,Cunha do Oeste
+1915,Marques,Teixeira
+1916,Sousa - EI,Rocha de Novais
+1917,Melo - ME,Barros
+1918,Machado Farias Ltda.,Câmara
+1919,Garcia,Machado
+1920,Silveira S/A,da Rocha do Campo
+1921,Costa,Fogaça
+1922,Mendonça,Dias
+1923,Oliveira,Pinto
+1924,Peixoto,Câmara do Galho
+1925,Mendes,Carvalho das Flores
+1926,Novais,Lima
+1927,Marques,Aragão do Norte
+1928,Almeida e Filhos,Câmara
+1929,Rocha,Cavalcanti
+1930,Abreu,Silveira
+1931,Machado S/A,Aparecida
+1932,Ramos,Andrade
+1933,da Rocha Andrade - ME,Albuquerque dos Dourados
+1934,Caldeira S/A,Ribeiro da Serra
+1935,Teixeira - ME,Pereira dos Dourados
+1936,da Conceição,Martins
+1937,Moreira Ltda.,Leão
+1938,da Conceição,Peixoto Paulista
+1939,da Luz,da Cunha de Jesus
+1940,da Luz,Gomes
+1941,Sá,Câmara da Prata
+1942,das Neves,Lopes
+1943,Fogaça,Moraes da Serra
+1944,Cirino,Moura
+1945,Vargas,Vieira de Vargas
+1946,Costa e Filhos,Vieira
+1947,Araújo - EI,Carvalho do Sul
+1948,Machado Silveira Ltda.,Carvalho da Prata
+1949,Borges,Costa Alegre
+1950,Pinto,Monteiro
+1951,Oliveira,Farias
+1952,Sampaio,Mendonça
+1953,Farias - ME,Fogaça
+1954,Rodrigues - EI,Moura dos Dourados
+1955,Cassiano Andrade S.A.,Barros Verde
+1956,Teixeira,Cirino Paulista
+1957,Mendonça e Filhos,Pimenta
+1958,da Mata,Fernandes
+1959,Sousa Campos S.A.,Leão
+1960,da Mata e Filhos,Campos do Campo
+1961,Viana Teixeira S/A,Andrade do Campo
+1962,Ribeiro,Peixoto da Prata
+1963,Vasconcelos Caldeira - EI,Câmara do Amparo
+1964,Rezende Fonseca e Filhos,Nunes da Mata
+1965,Cavalcanti Ltda.,Camargo
+1966,Ribeiro Caldeira Ltda.,da Cunha das Flores
+1967,Teixeira S/A,Cardoso de Câmara
+1968,da Cruz Cavalcanti S.A.,Freitas
+1969,Rios,da Luz
+1970,Albuquerque S/A,da Mata
+1971,Carvalho da Rosa S/A,Mendonça da Praia
+1972,Porto Cavalcante S.A.,Castro da Mata
+1973,Rios Câmara Ltda.,Ferreira de Moraes
+1974,Moura,da Paz
+1975,da Mata,Novaes
+1976,Costa,Andrade de da Rocha
+1977,Moraes - ME,Pinto
+1978,Ribeiro - ME,Melo
+1979,Peixoto Ltda.,Campos do Amparo
+1980,Farias,Gomes de Goiás
+1981,Ribeiro,Costa
+1982,Carvalho Peixoto S.A.,Almeida
+1983,da Mata - ME,Fonseca das Pedras
+1984,Camargo,Alves
+1985,Gonçalves da Mata e Filhos,Silva
+1986,Ramos,Nascimento
+1987,Santos Ltda.,Abreu de Novais
+1988,Melo,da Rocha
+1989,Porto,Casa Grande
+1990,Pacheco,Brito
+1991,da Paz,da Cunha
+1992,Santos,Araújo
+1993,Alves,Rodrigues de Campos
+1994,Carvalho,Moura de Jesus
+1995,da Cunha S/A,Castro da Praia
+1996,Siqueira,Aragão
+1997,Moreira S.A.,Caldeira Verde
+1998,Macedo Siqueira - ME,Cunha
+1999,da Mota e Filhos,Pimenta
+2000,Sampaio,Mendonça

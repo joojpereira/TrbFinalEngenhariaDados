@@ -1,4 +1,4 @@
-Data/generated/*.csv
+
 
 __pycache__/
 *.pyc
