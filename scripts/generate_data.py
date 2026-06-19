@@ -1,59 +1,233 @@
+from faker import Faker
 import pandas as pd
 import random
-from faker import Faker
-from datetime import datetime
 import os
+from datetime import timedelta
 
 fake = Faker("pt_BR")
 
 os.makedirs("Data/generated", exist_ok=True)
 
-orders = pd.read_csv("Data/northwind_orders.csv")
-details = pd.read_csv("Data/northwind_order_details.csv")
+# --------------------
+# CUSTOMERS
+# --------------------
 
-TARGET_ORDERS = 10000
+customers = []
 
-new_orders = []
+for i in range(1, 10001):
+    customers.append({
+        "customer_id": i,
+        "customer_name": fake.name(),
+        "email": fake.email(),
+        "city": fake.city(),
+        "state": fake.state_abbr(),
+        "created_at": fake.date_between(
+            start_date="-3y",
+            end_date="today"
+        )
+    })
 
-for i in range(TARGET_ORDERS):
+customers_df = pd.DataFrame(customers)
+
+# --------------------
+# PRODUCTS
+# --------------------
+
+products = []
+
+for i in range(1, 10001):
+    products.append({
+        "product_id": i,
+        "product_name": fake.word().capitalize(),
+        "unit_price": round(
+            random.uniform(5, 500),
+            2
+        )
+    })
+
+products_df = pd.DataFrame(products)
+
+# --------------------
+# ORDERS
+# --------------------
+
+orders = []
+
+for i in range(1, 50001):
 
     order_date = fake.date_between(
         start_date="-3y",
         end_date="today"
     )
 
-    required_date = fake.date_between(
-        start_date=order_date,
-        end_date="+30d"
-    )
-
-    shipped_date = fake.date_between(
-        start_date=order_date,
-        end_date=required_date
-    )
-
-    new_orders.append({
-        "order_id": i + 1,
-        "customer_id": fake.bothify(text="?????").upper(),
-        "employee_id": random.randint(1, 20),
+    orders.append({
+        "order_id": i,
+        "customer_id": random.randint(
+            1,
+            10000
+        ),
         "order_date": order_date,
-        "required_date": required_date,
-        "shipped_date": shipped_date,
-        "ship_via": random.randint(1, 5),
-        "freight": round(random.uniform(10, 500), 2),
-        "ship_name": fake.company(),
-        "ship_address": fake.street_address(),
-        "ship_city": fake.city(),
-        "ship_region": fake.state_abbr(),
-        "ship_postal_code": fake.postcode(),
-        "ship_country": "Brazil"
+        "freight": round(
+            random.uniform(10, 200),
+            2
+        )
     })
 
-orders_df = pd.DataFrame(new_orders)
+orders_df = pd.DataFrame(orders)
+
+# --------------------
+# ORDER DETAILS
+# --------------------
+
+details = []
+
+for _ in range(200000):
+
+    quantity = random.randint(1, 20)
+
+    price = round(
+        random.uniform(5, 500),
+        2
+    )
+
+    details.append({
+        "order_id": random.randint(
+            1,
+            50000
+        ),
+        "product_id": random.randint(
+            1,
+            10000
+        ),
+        "quantity": quantity,
+        "unit_price": price,
+        "total": round(
+            quantity * price,
+            2
+        )
+    })
+
+details_df = pd.DataFrame(details)
+
+
+employees = []
+
+for i in range(1, 501):
+    employees.append({
+        "employee_id": i,
+        "employee_name": fake.name(),
+        "hire_date": fake.date_between(
+            start_date="-10y",
+            end_date="today"
+        )
+    })
+
+employees_df = pd.DataFrame(employees)
+
+
+suppliers = []
+
+for i in range(1, 2001):
+    suppliers.append({
+        "supplier_id": i,
+        "supplier_name": fake.company(),
+        "city": fake.city()
+    })
+
+suppliers_df = pd.DataFrame(suppliers)
+
+categories = []
+
+for i in range(1, 101):
+    categories.append({
+        "category_id": i,
+        "category_name": f"Categoria {i}"
+    })
+
+categories_df = pd.DataFrame(categories)
+
+shippers = []
+
+for i in range(1, 21):
+    shippers.append({
+        "shipper_id": i,
+        "company_name": fake.company()
+    })
+
+shippers_df = pd.DataFrame(shippers)
+
+regions = []
+
+for i in range(1, 51):
+    regions.append({
+        "region_id": i,
+        "region_name": f"Regiao {i}"
+    })
+
+regions_df = pd.DataFrame(regions)
+
+territories = []
+
+for i in range(1, 501):
+    territories.append({
+        "territory_id": i,
+        "region_id": random.randint(1, 50),
+        "territory_name": fake.city()
+    })
+
+territories_df = pd.DataFrame(territories)
+
+# --------------------
+# EXPORT
+# --------------------
+
+customers_df.to_csv(
+    "Data/generated/customers.csv",
+    index=False
+)
+
+products_df.to_csv(
+    "Data/generated/products.csv",
+    index=False
+)
 
 orders_df.to_csv(
     "Data/generated/orders.csv",
     index=False
 )
 
-print("orders.csv gerado")
+details_df.to_csv(
+    "Data/generated/order_details.csv",
+    index=False
+)
+employees_df.to_csv(
+    "Data/generated/employees.csv",
+    index=False
+)
+
+suppliers_df.to_csv(
+    "Data/generated/suppliers.csv",
+    index=False
+)
+
+categories_df.to_csv(
+    "Data/generated/categories.csv",
+    index=False
+)
+
+shippers_df.to_csv(
+    "Data/generated/shippers.csv",
+    index=False
+)
+
+regions_df.to_csv(
+    "Data/generated/regions.csv",
+    index=False
+)
+
+territories_df.to_csv(
+    "Data/generated/territories.csv",
+    index=False
+)
+
+print("Arquivos gerados com sucesso!")
