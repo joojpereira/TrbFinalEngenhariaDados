@@ -10,33 +10,9 @@
 
 # Visão Geral
 
-Este projeto tem como objetivo desenvolver um pipeline de Engenharia de Dados completo, contemplando as etapas de geração, ingestão, armazenamento, processamento e análise de dados.
+Este projeto foi desenvolvido para a disciplina de Engenharia de Dados com o objetivo de construir um pipeline de dados completo, contemplando as etapas de geração, armazenamento e processamento de dados.
 
-A base utilizada foi inspirada no banco Northwind e expandida por meio da geração de dados sintéticos utilizando Python e Faker, permitindo simular um ambiente real de vendas com grande volume de informações.
-
----
-
-# Arquitetura do Projeto
-
-```text
-Origem dos Dados
-        │
-        ▼
-Python + Faker
-(Geração dos CSVs)
-        │
-        ▼
-PostgreSQL
-(Armazenamento)
-        │
-        ▼
-Apache Spark
-(Processamento)
-        │
-        ▼
-Camada Analítica
-(Relatórios e KPIs)
-```
+A base utilizada foi inspirada no banco Northwind. A partir dos dados originais, foram gerados dados sintéticos utilizando Python e Faker para aumentar o volume de registros e simular um ambiente real de vendas.
 
 ---
 
@@ -54,15 +30,50 @@ Camada Analítica
 
 ---
 
+# Arquitetura do Projeto
+
+```text
+Dados Originais (Northwind)
+            │
+            ▼
+      Python + Faker
+   (Geração dos Dados)
+            │
+            ▼
+        PostgreSQL
+     (Armazenamento)
+            │
+            ▼
+       Apache Spark
+      (Processamento)
+            │
+            ▼
+      Análise dos Dados
+```
+
+---
+
 # Estrutura do Repositório
 
 ```text
 TrbFinalEngenhariaDados/
 │
 ├── Data/
-│   ├── northwind_orders.csv
-│   ├── northwind_order_details.csv
+│   ├── original/
+│   │   ├── northwind_orders.csv
+│   │   └── northwind_order_details.csv
+│   │
 │   └── generated/
+│       ├── categories.csv
+│       ├── customers.csv
+│       ├── employees.csv
+│       ├── orders.csv
+│       ├── order_details.csv
+│       ├── products.csv
+│       ├── regions.csv
+│       ├── shippers.csv
+│       ├── suppliers.csv
+│       └── territories.csv
 │
 ├── scripts/
 │   └── generate_data.py
@@ -74,22 +85,28 @@ TrbFinalEngenhariaDados/
 
 ---
 
-# Fonte de Dados
+# Base de Dados Original
 
-O projeto utiliza como base os arquivos do conjunto Northwind:
+Dataset utilizado como referência:
+
+https://www.kaggle.com/datasets/emmanueltugbeh/northwind-orders-and-order-details
+
+Arquivos originais:
 
 * northwind_orders.csv
 * northwind_order_details.csv
 
-A partir destes arquivos foi desenvolvido um gerador de dados sintéticos capaz de ampliar o volume da base para atender aos requisitos do projeto.
+Os arquivos encontram-se na pasta:
+
+```text
+Data/original/
+```
 
 ---
 
-# Geração de Dados Sintéticos
+# Geração dos Dados Sintéticos
 
-Os dados são gerados automaticamente utilizando a biblioteca Faker.
-
-Para executar:
+Para gerar novamente os dados:
 
 ```bash
 pip install -r requirements.txt
@@ -97,30 +114,32 @@ pip install -r requirements.txt
 python scripts/generate_data.py
 ```
 
-Os arquivos gerados são armazenados em:
+Os arquivos serão criados automaticamente em:
 
 ```text
 Data/generated/
 ```
 
+O repositório já contém uma versão dos dados gerados, permitindo que o projeto seja executado sem necessidade de nova geração.
+
 ---
 
-# Tabelas Geradas
+# Volume de Dados Gerados
 
-| Tabela        | Quantidade de Registros |
-| ------------- | ----------------------: |
-| customers     |                  10.000 |
-| employees     |                     500 |
-| suppliers     |                   2.000 |
-| categories    |                     100 |
-| products      |                  10.000 |
-| shippers      |                      20 |
-| regions       |                      50 |
-| territories   |                     500 |
-| orders        |                  50.000 |
-| order_details |                 200.000 |
+| Tabela        | Registros |
+| ------------- | --------: |
+| customers     |    10.000 |
+| products      |    10.000 |
+| orders        |    50.000 |
+| order_details |   200.000 |
+| employees     |       500 |
+| suppliers     |     2.000 |
+| categories    |       100 |
+| shippers      |        20 |
+| regions       |        50 |
+| territories   |       500 |
 
-Total aproximado: **272.170 registros**
+**Total aproximado: 273.170 registros**
 
 ---
 
@@ -128,77 +147,45 @@ Total aproximado: **272.170 registros**
 
 * Mais de 270 mil registros
 * 10 tabelas relacionais
-* Dados sintéticos realistas
+* Dados sintéticos gerados com Faker
 * Datas distribuídas nos últimos 3 anos
-* Simulação de operações de vendas
-* Estrutura inspirada no Northwind
+* Estrutura inspirada no modelo Northwind
+* Dados preparados para carga em PostgreSQL
 
 ---
 
-# Objetivos do Pipeline
+# Utilização no PostgreSQL
 
-O pipeline desenvolvido deverá permitir:
+Os arquivos CSV podem ser importados para PostgreSQL utilizando ferramentas como DBeaver ou pgAdmin.
 
-* Ingestão automatizada dos dados
-* Armazenamento em banco relacional
-* Transformação e enriquecimento dos dados
-* Processamento em larga escala
-* Geração de indicadores de negócio
+Ordem recomendada de importação:
 
----
-
-# Indicadores Esperados
-
-Entre as análises previstas estão:
-
-* Total de vendas por período
-* Produtos mais vendidos
-* Clientes com maior volume de compras
-* Ticket médio por pedido
-* Distribuição geográfica das vendas
-* Custos de frete
-* Evolução temporal das vendas
+1. customers
+2. products
+3. employees
+4. suppliers
+5. categories
+6. regions
+7. shippers
+8. territories
+9. orders
+10. order_details
 
 ---
 
 # Controle de Versão
 
-O desenvolvimento segue fluxo baseado em Git Flow simplificado:
+O desenvolvimento do projeto utiliza Git e GitHub para gerenciamento de versões.
+
+Estrutura de branches:
 
 * main → versão estável
 * feature/* → desenvolvimento de funcionalidades
-* Pull Requests → integração das alterações
 
-Todas as modificações passam por revisão antes da integração na branch principal.
-
----
-
-# Responsabilidades
-
-### Origem dos Dados
-
-* Geração dos dados sintéticos
-* Modelagem dos arquivos CSV
-* Garantia do volume mínimo de dados
-
-### Infraestrutura
-
-* Docker
-* Docker Compose
-* Banco de dados
-
-### Processamento
-
-* Apache Spark
-* Transformações e agregações
-
-### Análise
-
-* Criação de métricas e indicadores
-* Visualização dos resultados
+As alterações são integradas através de Pull Requests.
 
 ---
 
-# Resultado Esperado
+# Objetivo Final
 
-Ao final do projeto será disponibilizado um ambiente completo de Engenharia de Dados capaz de gerar, armazenar, processar e analisar grandes volumes de dados de vendas, simulando um cenário corporativo real.
+Disponibilizar uma base de dados em larga escala para testes e estudos de Engenharia de Dados, permitindo a realização de processos de ingestão, armazenamento, transformação e análise de dados utilizando tecnologias modernas do ecossistema de dados.

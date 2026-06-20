@@ -66,6 +66,10 @@ for i in range(1, 50001):
             1,
             10000
         ),
+        "employee_id": random.randint(
+            1,
+            500
+        ),
         "order_date": order_date,
         "freight": round(
             random.uniform(10, 200),
@@ -74,7 +78,6 @@ for i in range(1, 50001):
     })
 
 orders_df = pd.DataFrame(orders)
-
 # --------------------
 # ORDER DETAILS
 # --------------------
