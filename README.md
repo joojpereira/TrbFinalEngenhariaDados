@@ -168,3 +168,18 @@ Antes de iniciar, é necessário possuir:
 ```bash
 git clone https://github.com/joojpereira/TrbFinalEngenhariaDados.git
 cd TrbFinalEngenhariaDados
+
+
+## 🤝 Fluxo de Contribuição
+
+O desenvolvimento do projeto será realizado utilizando GitHub Issues e Pull Requests.
+
+Fluxo recomendado:
+
+1. Selecionar uma issue disponível
+2. Criar uma branch a partir da branch principal
+3. Realizar as alterações necessárias
+4. Fazer commits pequenos e descritivos
+5. Enviar a branch para o GitHub
+6. Abrir um Pull Request
+7. Aguardar revisão e aprovação antes do merge
