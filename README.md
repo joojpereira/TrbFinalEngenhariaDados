@@ -96,3 +96,44 @@ Gold (Modelo Dimensional)
      ▼
 Superset Dashboard
 ```
+
+## 🛠️ Tecnologias Utilizadas
+
+Este projeto utiliza as seguintes tecnologias:
+
+| Tecnologia | Finalidade |
+|------------|------------|
+| Python | Linguagem principal do projeto |
+| Apache Spark (PySpark) | Transformação dos dados |
+| Apache Airflow | Orquestração do pipeline |
+| PostgreSQL | Base de dados de origem |
+| Docker | Containerização dos serviços |
+| Delta Lake | Armazenamento das camadas Bronze, Silver e Gold |
+| Apache Superset | Construção do dashboard |
+| MkDocs | Documentação do projeto |
+| GitHub | Versionamento e colaboração |
+
+## 📊 Fluxo Geral
+
+```text
+PostgreSQL
+     │
+     ▼
+Airflow
+     │
+     ▼
+Landing (CSV)
+     │
+     ▼
+Bronze (Delta)
+     │
+     ▼
+Silver (Delta)
+     │
+     ▼
+Gold (Modelo Dimensional)
+     │
+     ▼
+Superset Dashboard
+```
+
