@@ -1,0 +1,501 @@
+territory_id,region_id,territory_name
+1,36,Martins
+2,37,Cirino
+3,40,Ferreira
+4,43,Pinto das Flores
+5,19,Rios de Andrade
+6,48,Araújo
+7,1,Duarte
+8,46,Lima Grande
+9,13,Cassiano
+10,23,Souza
+11,42,Ribeiro
+12,38,da Costa
+13,48,Cavalcanti Paulista
+14,42,Brito
+15,36,Peixoto da Prata
+16,21,da Luz de Sampaio
+17,49,Novaes
+18,22,Barros Verde
+19,34,da Rocha das Pedras
+20,33,Araújo de Cirino
+21,49,Peixoto da Mata
+22,15,Mendonça
+23,16,Cavalcante
+24,39,Silveira do Galho
+25,49,Azevedo
+26,18,Nunes Alegre
+27,22,Jesus
+28,31,Câmara Verde
+29,35,da Cunha
+30,38,Cardoso de Caldeira
+31,14,Rocha
+32,17,Rezende
+33,38,Freitas
+34,33,Freitas
+35,22,Jesus
+36,11,da Paz
+37,6,Macedo da Praia
+38,3,Martins Verde
+39,37,das Neves das Pedras
+40,38,Mendes de da Cruz
+41,9,Moraes
+42,1,Marques
+43,19,Pinto de Oliveira
+44,25,Nogueira
+45,29,da Mata
+46,18,Machado do Sul
+47,24,Silveira
+48,31,Ferreira da Serra
+49,26,Pereira da Serra
+50,25,Vieira Paulista
+51,32,Caldeira do Oeste
+52,3,Silva de Abreu
+53,46,Ribeiro
+54,41,Barros da Serra
+55,33,Mendonça
+56,26,da Mota da Serra
+57,35,Andrade do Campo
+58,10,Costela da Serra
+59,34,Campos
+60,41,Novais da Mata
+61,9,Pacheco do Galho
+62,6,Moraes do Campo
+63,11,Brito do Galho
+64,19,Garcia
+65,25,Machado
+66,34,Ferreira
+67,46,Martins
+68,15,Lopes de Goiás
+69,39,Gonçalves do Oeste
+70,15,Nascimento da Serra
+71,11,Pereira
+72,39,Nascimento
+73,47,Vieira das Flores
+74,8,Araújo do Amparo
+75,33,Costela
+76,46,Pereira de Costa
+77,33,Macedo de Moraes
+78,46,Cavalcanti do Galho
+79,6,Aragão de Gonçalves
+80,24,Pereira de Abreu
+81,14,Monteiro Grande
+82,21,Moraes
+83,42,Rios
+84,49,Moreira
+85,29,Sousa
+86,16,da Mata de Freitas
+87,9,Oliveira das Flores
+88,1,da Cunha do Campo
+89,33,Ramos de Goiás
+90,13,Silveira
+91,43,Vieira Grande
+92,9,Freitas
+93,44,Sampaio Verde
+94,39,Rezende da Prata
+95,42,Rocha
+96,33,Vargas
+97,49,Ferreira de Mendes
+98,44,Peixoto
+99,48,Santos
+100,1,Oliveira Verde
+101,43,Cassiano de Macedo
+102,4,Peixoto
+103,20,Ramos
+104,17,Barros de Marques
+105,44,Cardoso das Flores
+106,26,Cavalcante do Oeste
+107,48,da Mota
+108,5,Moura do Oeste
+109,36,Nunes de Freitas
+110,50,Garcia
+111,24,Oliveira
+112,24,Viana da Mata
+113,40,Cunha de Gomes
+114,39,Vieira de Gomes
+115,27,Pinto
+116,1,Sousa de Lopes
+117,41,Machado dos Dourados
+118,23,da Cruz de Sampaio
+119,11,Ramos Alegre
+120,48,Pires
+121,8,Ribeiro
+122,49,Almeida
+123,32,Moreira
+124,37,Abreu de Abreu
+125,35,Viana Alegre
+126,16,Barros de Souza
+127,25,Nogueira
+128,6,Gomes dos Dourados
+129,20,Pimenta de Goiás
+130,6,Novaes de Goiás
+131,20,Oliveira do Norte
+132,35,Melo
+133,15,Cavalcanti do Oeste
+134,19,Ramos da Prata
+135,4,Porto de Sampaio
+136,24,Brito
+137,47,Silveira da Prata
+138,45,Monteiro Paulista
+139,38,Costa de Nascimento
+140,5,Monteiro
+141,37,Marques Grande
+142,42,Fogaça de Cardoso
+143,25,Lopes
+144,22,Pimenta da Prata
+145,47,Cavalcanti de Melo
+146,43,da Mota
+147,40,Jesus
+148,11,Fonseca
+149,30,Fonseca
+150,1,Caldeira das Pedras
+151,17,Gonçalves da Serra
+152,35,Fonseca do Amparo
+153,45,Rios
+154,12,Vieira
+155,4,Machado de Santos
+156,1,Cirino
+157,36,Carvalho
+158,37,Lopes da Serra
+159,7,Ramos
+160,21,Pereira
+161,26,Sales
+162,29,da Costa de Minas
+163,11,Carvalho
+164,38,Mendes da Mata
+165,32,Aragão
+166,33,Oliveira
+167,29,da Mota Verde
+168,31,Nascimento da Mata
+169,37,da Costa
+170,7,Macedo de Goiás
+171,8,Machado de Nascimento
+172,5,Porto das Pedras
+173,48,Ribeiro do Sul
+174,17,Sampaio Alegre
+175,13,Machado
+176,26,Pacheco de Pinto
+177,2,Moraes
+178,7,Vasconcelos
+179,44,Nunes
+180,19,Oliveira
+181,42,Viana
+182,25,Correia de Costela
+183,3,da Conceição
+184,44,da Luz
+185,1,Costa do Galho
+186,40,Caldeira
+187,6,Caldeira de da Cruz
+188,23,Vasconcelos de Fernandes
+189,47,da Paz dos Dourados
+190,32,Casa Grande da Serra
+191,31,Fernandes do Norte
+192,48,Barbosa Verde
+193,14,Cunha
+194,44,Barros das Pedras
+195,48,Farias de Novaes
+196,17,Ferreira
+197,30,Nogueira
+198,14,da Mota da Mata
+199,45,Sales do Galho
+200,23,da Mota
+201,50,Aparecida
+202,31,da Conceição
+203,33,Borges
+204,37,Peixoto
+205,23,das Neves Verde
+206,38,Cavalcanti
+207,28,Lopes
+208,18,da Paz do Galho
+209,6,Mendes
+210,46,Andrade
+211,46,Costa
+212,29,Correia
+213,6,Pereira
+214,47,da Mata de das Neves
+215,13,Marques do Campo
+216,19,Melo
+217,33,da Rocha
+218,4,Câmara
+219,20,Camargo
+220,45,Cirino do Amparo
+221,37,Araújo das Pedras
+222,21,Viana
+223,11,Silva
+224,14,Costela do Norte
+225,49,Nogueira
+226,47,da Costa
+227,48,Silveira de Marques
+228,25,Martins
+229,19,Brito
+230,46,Mendonça
+231,13,da Paz do Norte
+232,35,Garcia do Oeste
+233,25,Costa
+234,4,Brito das Flores
+235,42,da Luz
+236,23,Sá das Pedras
+237,34,Pinto de Brito
+238,1,Pacheco
+239,19,Moreira
+240,8,Barbosa de Rios
+241,9,Andrade
+242,16,Fernandes
+243,35,Ribeiro da Praia
+244,17,Moura do Amparo
+245,10,Cassiano
+246,39,Fonseca de Minas
+247,43,Fernandes do Sul
+248,7,da Rocha do Sul
+249,21,Gonçalves Paulista
+250,29,Lima
+251,39,Sá das Flores
+252,43,Freitas de Lopes
+253,10,da Cunha
+254,1,Marques Alegre
+255,30,Fonseca
+256,4,Martins do Amparo
+257,28,Sales
+258,22,Sampaio
+259,49,Mendonça de Gonçalves
+260,25,Camargo Alegre
+261,10,Silveira
+262,4,da Luz de Câmara
+263,39,Vargas
+264,9,Cavalcante da Prata
+265,37,Cirino do Norte
+266,36,Ribeiro
+267,24,Vasconcelos de Vargas
+268,13,Melo
+269,13,Sampaio
+270,36,Costela do Amparo
+271,31,Garcia da Praia
+272,11,Sales da Mata
+273,20,Castro
+274,3,Moreira
+275,38,Guerra Verde
+276,24,Monteiro
+277,37,Silva Paulista
+278,10,Moraes da Serra
+279,4,Barros
+280,50,Moreira
+281,48,Cavalcante
+282,6,Peixoto
+283,49,Montenegro
+284,19,Montenegro
+285,4,Vargas da Mata
+286,39,Barros
+287,24,Lopes dos Dourados
+288,48,Lopes de Minas
+289,45,Barbosa
+290,4,da Conceição do Norte
+291,37,Caldeira
+292,10,Porto de Campos
+293,32,Albuquerque de Monteiro
+294,22,Nunes
+295,12,Moraes do Norte
+296,28,Montenegro do Campo
+297,14,Barros
+298,4,da Cunha de Costa
+299,36,Jesus
+300,10,Barros
+301,15,Nunes
+302,35,Rios do Amparo
+303,6,Souza Verde
+304,43,Cirino
+305,23,Nogueira
+306,46,Silveira
+307,29,Ferreira
+308,42,Ramos do Amparo
+309,40,Novaes do Sul
+310,22,Albuquerque do Campo
+311,29,Marques
+312,3,Cardoso
+313,50,das Neves
+314,41,Siqueira da Mata
+315,50,Sales
+316,11,Aparecida
+317,8,Pereira
+318,14,Porto
+319,17,da Paz do Campo
+320,1,Brito do Norte
+321,38,da Paz Verde
+322,23,da Rocha
+323,29,Rezende
+324,33,da Rocha de Teixeira
+325,41,Nunes de Albuquerque
+326,31,Pinto
+327,5,Cardoso
+328,22,Albuquerque
+329,15,Machado das Flores
+330,32,Araújo
+331,42,Azevedo
+332,35,Peixoto do Amparo
+333,2,Mendes
+334,48,Sampaio de Ribeiro
+335,24,Fogaça da Prata
+336,50,Casa Grande do Oeste
+337,28,Alves
+338,35,Nogueira de Minas
+339,27,da Luz da Praia
+340,11,Cassiano de Fonseca
+341,24,Barros da Mata
+342,30,Gomes de Goiás
+343,10,Monteiro de Peixoto
+344,12,Nogueira de Minas
+345,2,Aragão de Nogueira
+346,21,Montenegro
+347,42,Porto
+348,45,Pereira da Serra
+349,24,Azevedo das Flores
+350,2,Barbosa
+351,3,Ramos
+352,49,Ferreira
+353,17,Machado de Souza
+354,3,da Rocha de Monteiro
+355,25,Viana de da Cunha
+356,4,Cunha
+357,45,Albuquerque
+358,37,Duarte de Câmara
+359,39,Barros de Nogueira
+360,3,Moreira Verde
+361,18,Andrade
+362,32,Vargas de Melo
+363,4,Alves
+364,43,da Costa do Sul
+365,16,Cavalcante
+366,41,Siqueira
+367,9,Gomes de das Neves
+368,44,Silveira
+369,44,da Mota
+370,47,Ferreira
+371,16,da Costa
+372,47,Oliveira
+373,48,Santos
+374,35,Sales dos Dourados
+375,22,Nascimento das Pedras
+376,47,Ribeiro de Minas
+377,34,Vargas
+378,27,Melo
+379,49,Lopes
+380,26,Albuquerque dos Dourados
+381,7,Mendes da Serra
+382,5,Caldeira do Norte
+383,39,Farias Grande
+384,28,da Mata da Praia
+385,29,Macedo
+386,33,Lopes da Prata
+387,32,Farias Paulista
+388,47,Cardoso
+389,37,Freitas de Minas
+390,24,Porto do Galho
+391,38,Brito
+392,25,da Rosa
+393,42,Guerra
+394,21,Leão do Galho
+395,50,Carvalho
+396,48,da Cruz
+397,12,da Rocha
+398,41,da Conceição
+399,43,da Costa
+400,14,Gonçalves
+401,6,Porto de Guerra
+402,37,Cunha Paulista
+403,27,Castro
+404,31,Mendes da Mata
+405,16,Farias
+406,40,Correia de da Rocha
+407,10,Oliveira de Minas
+408,10,Rios
+409,23,Mendes
+410,47,Pimenta
+411,4,Almeida
+412,19,Pacheco Grande
+413,18,Moreira
+414,9,Moreira do Galho
+415,33,da Costa da Mata
+416,20,Alves de Goiás
+417,23,Monteiro do Galho
+418,29,Vieira do Sul
+419,37,Macedo
+420,23,Ribeiro
+421,25,Moura
+422,19,Novaes de Goiás
+423,2,da Conceição
+424,39,das Neves
+425,22,Cavalcanti
+426,31,Ramos Verde
+427,48,Rodrigues
+428,4,Costa
+429,46,Pastor
+430,7,das Neves de Almeida
+431,1,Borges
+432,44,Almeida
+433,47,da Cruz
+434,43,Ribeiro
+435,15,Moura da Mata
+436,25,Mendonça
+437,15,Mendes
+438,11,Abreu de Goiás
+439,15,Cirino
+440,27,Ferreira
+441,21,Azevedo do Amparo
+442,12,da Paz
+443,28,Nunes da Praia
+444,26,da Costa
+445,39,Almeida
+446,28,Albuquerque
+447,36,Cavalcanti
+448,23,Martins dos Dourados
+449,49,Aragão do Amparo
+450,45,Lima
+451,49,Pastor
+452,50,Dias de Goiás
+453,41,da Luz
+454,20,da Mata do Galho
+455,35,Correia
+456,50,Azevedo das Pedras
+457,34,Ferreira de Teixeira
+458,17,Cirino de Rezende
+459,32,Pacheco do Norte
+460,29,Fonseca de Almeida
+461,17,Oliveira de Dias
+462,25,Cardoso
+463,27,Albuquerque
+464,17,Ramos do Sul
+465,23,Aparecida
+466,47,Freitas do Oeste
+467,22,Martins
+468,42,Mendes
+469,4,Cunha da Prata
+470,46,Porto dos Dourados
+471,47,da Cunha
+472,6,Sales da Mata
+473,10,Rodrigues
+474,17,Aragão do Oeste
+475,36,Abreu do Campo
+476,40,Azevedo Paulista
+477,31,Vasconcelos
+478,16,Abreu
+479,35,Teixeira
+480,15,Mendes do Norte
+481,2,da Paz dos Dourados
+482,39,Araújo
+483,10,Novaes
+484,5,Pereira
+485,17,Aragão
+486,22,Leão
+487,31,Fogaça
+488,49,Martins das Flores
+489,1,Leão
+490,18,Peixoto de Mendes
+491,35,Nascimento de Goiás
+492,16,Silva
+493,41,Costela
+494,41,Nunes de Aparecida
+495,37,das Neves
+496,41,Freitas
+497,16,Sales
+498,6,Guerra
+499,14,Duarte
+500,19,Barbosa
