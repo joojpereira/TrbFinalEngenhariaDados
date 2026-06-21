@@ -26,3 +26,33 @@ TrbFinalEngenhariaDados/
 │
 └── README.md
 ```
+
+## 🏗️ Arquitetura do Pipeline
+
+O projeto será organizado seguindo a arquitetura Medalhão, separando os dados em camadas conforme o nível de tratamento e refinamento.
+
+```text
+Origem dos Dados
+        │
+        ▼
+Landing - Dados brutos em CSV
+        │
+        ▼
+Bronze - Dados em Delta Lake
+        │
+        ▼
+Silver - Dados tratados e refinados
+        │
+        ▼
+Gold - Modelo dimensional ou OBT
+        │
+        ▼
+Dashboard - KPIs e métricas
+```
+
+### Camadas
+
+- **Landing:** armazena os dados brutos no formato original.
+- **Bronze:** recebe os dados da Landing e grava em formato Delta Lake.
+- **Silver:** contém dados tratados, padronizados e preparados para análise.
+- **Gold:** disponibiliza os dados em modelo dimensional ou OBT para consumo no dashboard.
