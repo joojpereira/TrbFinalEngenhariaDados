@@ -1,191 +1,142 @@
 # Trabalho Final - Engenharia de Dados
 
-## Integrantes
+Pipeline de dados completo com arquitetura medalhao (Landing, Bronze, Silver, Gold), utilizando dados de Food Delivery.
 
-* João Vitor Pereira
-* Nome Integrante 2
-* Nome Integrante 3
+## Equipe
 
----
+- Bruno Sabino
+- Filipe Jeremias
+- João Vitor Pereira
+- Nathan Frassetto
+- Rafael Pagnan
+- Ryan Candeu
 
-# Visão Geral
+## Arquitetura
+PostgreSQL (origem)
+|
+Airflow (orquestracao)
+|
+MinIO - landing/(dados brutos: CSV
+Apache Spar
+|
+MinIO - bronze/(Delta Lake - dados brutos)
+|
+Apache Spark
+|
+MinIO - silver/(Delta Lake - dados limpos)
+|
+Apache Spark
+|
+MinIO - gold/(Delta Lake - modelo dimensional)
+|
+Apache Superset (dashboard)
+## Stack Tecnologica
 
-Este projeto foi desenvolvido para a disciplina de Engenharia de Dados com o objetivo de construir um pipeline de dados completo, contemplando as etapas de geração, armazenamento e processamento de dados.
+| Camada | Ferramenta |
+|---|---|
+| Banco de origem | PostgreSQL 15 |
+| Orquestracao | Apache Airflow 2.9 |
+| Processamento | Apache Spark 3.5.1 |
+| Data Lake | MinIO (S3 compatible) |
+| Formato de tabelas | Delta Lake |
+| Dashboard | Apache Superset |
+| Containerizacao | Docker Compose |
 
-A base utilizada foi inspirada no banco Northwind. A partir dos dados originais, foram gerados dados sintéticos utilizando Python e Faker para aumentar o volume de registros e simular um ambiente real de vendas.
+## Fonte de Dados
 
----
+Dataset de Food Delivery (Kaggle):
+- https://www.kaggle.com/datasets/varshinipallerla/food-delivery
+- https://www.kaggle.com/datasets/gauravmalik26/food-delivery-dataset/data
 
-# Tecnologias Utilizadas
+## Como Subir o Ambiente
 
-* Python 3.13
-* Faker
-* Pandas
-* PostgreSQL
-* Docker
-* Docker Compose
-* Apache Spark
-* Git
-* GitHub
+### Pre-requisitos
 
----
+- Docker e Docker Compose instalados
 
-# Arquitetura do Projeto
-
-```text
-Dados Originais (Northwind)
-            │
-            ▼
-      Python + Faker
-   (Geração dos Dados)
-            │
-            ▼
-        PostgreSQL
-     (Armazenamento)
-            │
-            ▼
-       Apache Spark
-      (Processamento)
-            │
-            ▼
-      Análise dos Dados
-```
-
----
-
-# Estrutura do Repositório
-
-```text
-TrbFinalEngenhariaDados/
-│
-├── Data/
-│   ├── original/
-│   │   ├── northwind_orders.csv
-│   │   └── northwind_order_details.csv
-│   │
-│   └── generated/
-│       ├── categories.csv
-│       ├── customers.csv
-│       ├── employees.csv
-│       ├── orders.csv
-│       ├── order_details.csv
-│       ├── products.csv
-│       ├── regions.csv
-│       ├── shippers.csv
-│       ├── suppliers.csv
-│       └── territories.csv
-│
-├── scripts/
-│   └── generate_data.py
-│
-├── requirements.txt
-│
-└── README.md
-```
-
----
-
-# Base de Dados Original
-
-Dataset utilizado como referência:
-
-https://www.kaggle.com/datasets/emmanueltugbeh/northwind-orders-and-order-details
-
-Arquivos originais:
-
-* northwind_orders.csv
-* northwind_order_details.csv
-
-Os arquivos encontram-se na pasta:
-
-```text
-Data/original/
-```
-
----
-
-# Geração dos Dados Sintéticos
-
-Para gerar novamente os dados:
+### Passo 1 - Clonar o repositorio
 
 ```bash
-pip install -r requirements.txt
-
-python scripts/generate_data.py
+git clone https://github.com/joojpereira/TrbFinalEngenhariaDados.git
+cd TrbFinalEngenhariaDados
 ```
 
-Os arquivos serão criados automaticamente em:
+### Passo 2 - Configurar variaveis de ambiente
 
-```text
-Data/generated/
+```bash
+cp .env.example .env
 ```
 
-O repositório já contém uma versão dos dados gerados, permitindo que o projeto seja executado sem necessidade de nova geração.
+### Passo 3 - Subir os containers
 
----
+```bash
+docker compose --env-file .env up -d
+```
 
-# Volume de Dados Gerados
+### Passo 4 - Criar usuario do Airflow
 
-| Tabela        | Registros |
-| ------------- | --------: |
-| customers     |    10.000 |
-| products      |    10.000 |
-| orders        |    50.000 |
-| order_details |   200.000 |
-| employees     |       500 |
-| suppliers     |     2.000 |
-| categories    |       100 |
-| shippers      |        20 |
-| regions       |        50 |
-| territories   |       500 |
+```bash
+docker exec -it airflow-webserver airflow users create \
+  --username admin \
+  --password admin123 \
+  --firstname Admin \
+  --lastname User \
+  --role Admin \
+  --email admin@admin.com
+```
 
-**Total aproximado: 273.170 registros**
+### Passo 5 - Inicializar o Superset
 
----
+```bash
+docker exec -it superset superset db upgrade
+docker exec -it superset superset fab create-admin \
+  --username admin \
+  --firstname Admin \
+  --lastname User \
+  --email admin@admin.com \
+  --password admin123
+docker exec -it superset superset init
+```
 
-# Características da Base
+### Passo 6 - Criar os buckets no MinIO
 
-* Mais de 270 mil registros
-* 10 tabelas relacionais
-* Dados sintéticos gerados com Faker
-* Datas distribuídas nos últimos 3 anos
-* Estrutura inspirada no modelo Northwind
-* Dados preparados para carga em PostgreSQL
+Acesse http://localhost:9001 (minioadmin / minioadmin123) e crie:
+- landing
+- bronze
+- silver
+- gold
 
----
+## Servicos e Portas
 
-# Utilização no PostgreSQL
+| Servico | URL | Usuario | Senha |
+|---|---|---|---|
+| Airflow | http://localhost:8080 | admin | admin123 |
+| MinIO Console | http://localhost:9001 | minioadmin | minioadmin123 |
+| MinIO API | http://localhost:9000 | minioadmin | minioadmin123 |
+| Spark Master UI | http://localhost:8081 | - | - |
+| Spark Worker UI | http://localhost:8082 | - | - |
+| Superset | http://localhost:8088 | admin | admin123 |
+| PostgreSQL | localhost:5432 | admin | admin123 |
 
-Os arquivos CSV podem ser importados para PostgreSQL utilizando ferramentas como DBeaver ou pgAdmin.
+## Estrutura do Projeto
 
-Ordem recomendada de importação:
+TrbFinalEngenhariaDados/
+├── dags/                  # DAGs do Airflow
+├── data/                  # Dados auxiliares (CSVs originais)
+├── docs/                  # Documentacao MkDocs
+├── logs/                  # Logs do Airflow
+├── plugins/               # Plugins do Airflow
+├── docker-compose.yml
+├── .env.example
+├── mkdocs.yml
+└── README.md
+## Status do Projeto
 
-1. customers
-2. products
-3. employees
-4. suppliers
-5. categories
-6. regions
-7. shippers
-8. territories
-9. orders
-10. order_details
-
----
-
-# Controle de Versão
-
-O desenvolvimento do projeto utiliza Git e GitHub para gerenciamento de versões.
-
-Estrutura de branches:
-
-* main → versão estável
-* feature/* → desenvolvimento de funcionalidades
-
-As alterações são integradas através de Pull Requests.
-
----
-
-# Objetivo Final
-
-Disponibilizar uma base de dados em larga escala para testes e estudos de Engenharia de Dados, permitindo a realização de processos de ingestão, armazenamento, transformação e análise de dados utilizando tecnologias modernas do ecossistema de dados.
+- [x] Issue 1 - Infraestrutura Docker Compose
+- [ ] Issue 2 - Geracao/carga dos dados de origem
+- [ ] Issue 3 - Ingestao Landing Zone
+- [ ] Issue 4 - Camada Bronze (Delta Lake)
+- [ ] Issue 5 - Camada Silver
+- [ ] Issue 6 - Camada Gold (Modelo Dimensional)
+- [ ] Issue 7 - Dashboard Superset
+- [ ] Issue 8 - Documentacao MkDocs
