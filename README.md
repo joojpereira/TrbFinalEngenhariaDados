@@ -97,43 +97,57 @@ Gold (Modelo Dimensional)
 Superset Dashboard
 ```
 
-## 🛠️ Tecnologias Utilizadas
+## 🚀 Como executar o projeto
 
-Este projeto utiliza as seguintes tecnologias:
+### Pré-requisitos
 
-| Tecnologia | Finalidade |
-|------------|------------|
-| Python | Linguagem principal do projeto |
-| Apache Spark (PySpark) | Transformação dos dados |
-| Apache Airflow | Orquestração do pipeline |
-| PostgreSQL | Base de dados de origem |
-| Docker | Containerização dos serviços |
-| Delta Lake | Armazenamento das camadas Bronze, Silver e Gold |
-| Apache Superset | Construção do dashboard |
-| MkDocs | Documentação do projeto |
-| GitHub | Versionamento e colaboração |
+Antes de iniciar, é necessário possuir as seguintes ferramentas instaladas:
 
-## 📊 Fluxo Geral
+- Docker
+- Docker Compose
+- Python 3.11+
+- Git
 
-```text
-PostgreSQL
-     │
-     ▼
-Airflow
-     │
-     ▼
-Landing (CSV)
-     │
-     ▼
-Bronze (Delta)
-     │
-     ▼
-Silver (Delta)
-     │
-     ▼
-Gold (Modelo Dimensional)
-     │
-     ▼
-Superset Dashboard
+### Clonando o repositório
+
+```bash
+git clone https://github.com/joojpereira/TrbFinalEngenhariaDados.git
+cd TrbFinalEngenhariaDados
 ```
 
+### Estrutura do Pipeline
+
+O projeto será dividido nas seguintes etapas:
+
+1. Ingestão dos dados de origem
+2. Armazenamento na camada Landing
+3. Conversão para Delta Lake (Bronze)
+4. Tratamento e padronização (Silver)
+5. Modelagem dimensional (Gold)
+6. Construção do Dashboard
+
+### Documentação
+
+Toda a documentação será disponibilizada através do MkDocs e publicada no GitHub Pages.
+
+## 📁 Organização do Projeto
+
+```
+TrbFinalEngenhariaDados/
+│
+├── Data/
+├── docs/
+├── dags/
+├── scripts/
+├── docker/
+├── README.md
+└── mkdocs.yml
+```
+
+Cada diretório possui uma responsabilidade específica para facilitar a manutenção e evolução do projeto.
+
+## 👥 Equipe
+
+Projeto desenvolvido para a disciplina de Engenharia de Dados.
+
+Contribuições realizadas através de GitHub Issues, Pull Requests e revisão de código, seguindo boas práticas de desenvolvimento colaborativo.
