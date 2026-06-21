@@ -76,25 +76,25 @@ Este projeto utiliza as seguintes tecnologias:
 ## 📊 Fluxo Geral
 
 ```text
-PostgreSQL
-     │
-     ▼
-Airflow
-     │
-     ▼
+Banco de Dados (PostgreSQL)
+            │
+            ▼
+Orquestração (Apache Airflow)
+            │
+            ▼
 Landing (CSV)
-     │
-     ▼
-Bronze (Delta)
-     │
-     ▼
-Silver (Delta)
-     │
-     ▼
+            │
+            ▼
+Bronze (Delta Lake)
+            │
+            ▼
+Silver (Delta Lake)
+            │
+            ▼
 Gold (Modelo Dimensional)
-     │
-     ▼
-Superset Dashboard
+            │
+            ▼
+Dashboard (Apache Superset)
 ```
 
 ## 🚀 Como executar o projeto
@@ -132,54 +132,34 @@ Toda a documentação será disponibilizada através do MkDocs e publicada no Gi
 
 ## 📁 Organização do Projeto
 
-```
+Atualmente o projeto possui a seguinte estrutura:
+
+```text
 TrbFinalEngenhariaDados/
 │
 ├── Data/
-├── docs/
-├── dags/
-├── scripts/
-├── docker/
-├── README.md
-└── mkdocs.yml
+│   ├── northwind_orders.csv
+│   └── northwind_order_details.csv
+│
+└── README.md
 ```
 
-Cada diretório possui uma responsabilidade específica para facilitar a manutenção e evolução do projeto.
+A estrutura será expandida conforme o desenvolvimento das próximas etapas do projeto.
 
 ## 👥 Equipe
 
 Projeto desenvolvido para a disciplina de Engenharia de Dados.
 
-Contribuições realizadas através de GitHub Issues, Pull Requests e revisão de código, seguindo boas práticas de desenvolvimento colaborativo.
-
-## 🚀 Como executar o projeto
-
-### Pré-requisitos
-
-Antes de iniciar, é necessário possuir:
-
-- Git
-- Docker
-- Docker Compose
-- Python 3.11 ou superior
-
-### Clonar o repositório
-
-```bash
-git clone https://github.com/joojpereira/TrbFinalEngenhariaDados.git
-cd TrbFinalEngenhariaDados
-
+O desenvolvimento segue um modelo colaborativo baseado em GitHub Issues, Pull Requests e revisão de código, promovendo organização, rastreabilidade das alterações e boas práticas de desenvolvimento em equipe.
 
 ## 🤝 Fluxo de Contribuição
 
-O desenvolvimento do projeto será realizado utilizando GitHub Issues e Pull Requests.
+O desenvolvimento do projeto segue o seguinte fluxo:
 
-Fluxo recomendado:
-
-1. Selecionar uma issue disponível
-2. Criar uma branch a partir da branch principal
-3. Realizar as alterações necessárias
-4. Fazer commits pequenos e descritivos
-5. Enviar a branch para o GitHub
-6. Abrir um Pull Request
-7. Aguardar revisão e aprovação antes do merge
+1. Selecionar uma Issue disponível;
+2. Criar uma branch específica para a atividade;
+3. Implementar as alterações necessárias;
+4. Realizar commits pequenos e descritivos;
+5. Enviar a branch para o repositório remoto;
+6. Abrir um Pull Request;
+7. Aguardar revisão e aprovação antes da integração na branch principal.
