@@ -7,3 +7,6 @@ theme:
 
 nav:
   - Início: index.md
+  - Arquitetura: arquitetura.md
+  - Modelo de Dados: modelo-dados.md
+  - Pipeline: pipeline.md
