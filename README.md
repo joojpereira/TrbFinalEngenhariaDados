@@ -151,3 +151,20 @@ Cada diretório possui uma responsabilidade específica para facilitar a manuten
 Projeto desenvolvido para a disciplina de Engenharia de Dados.
 
 Contribuições realizadas através de GitHub Issues, Pull Requests e revisão de código, seguindo boas práticas de desenvolvimento colaborativo.
+
+## 🚀 Como executar o projeto
+
+### Pré-requisitos
+
+Antes de iniciar, é necessário possuir:
+
+- Git
+- Docker
+- Docker Compose
+- Python 3.11 ou superior
+
+### Clonar o repositório
+
+```bash
+git clone https://github.com/joojpereira/TrbFinalEngenhariaDados.git
+cd TrbFinalEngenhariaDados
