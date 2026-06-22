@@ -178,6 +178,45 @@ As tabelas principais incluem:
 
 ---
 
+## 🗄️ Geração e Carga dos Dados
+
+O projeto possui dados sintéticos gerados com Python e Faker, simulando uma base Northwind.
+
+### Gerar os arquivos CSV
+
+```bash
+python scripts/generate_data.py
+```
+
+Os arquivos serão criados em:
+
+```text
+Data/generated/
+```
+
+### Carregar os dados no PostgreSQL
+
+```bash
+python scripts/load_postgres.py
+```
+
+Esse script lê os arquivos CSV gerados e carrega as tabelas no banco PostgreSQL configurado como `northwind`.
+
+### Tabelas carregadas
+
+- regions
+- territories
+- categories
+- suppliers
+- products
+- customers
+- employees
+- shippers
+- orders
+- order_details
+
+---
+
 ## 🚀 Como subir o ambiente
 
 ### Pré-requisitos
