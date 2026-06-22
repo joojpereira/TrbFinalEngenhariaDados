@@ -1,6 +1,7 @@
 
 
-__pycache__/
-*.pyc
-.venv/mc.exe
-saida*.log
+pycache/
+.pyc
+.venv/
+mc.exe
+saida.log
