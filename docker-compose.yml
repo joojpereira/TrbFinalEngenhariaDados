@@ -8,11 +8,16 @@ x-airflow-common: &airflow-common
     AIRFLOW__CORE__FERNET_KEY: ${AIRFLOW__CORE__FERNET_KEY}
     AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
     AIRFLOW__WEBSERVER__SECRET_KEY: ${AIRFLOW__CORE__FERNET_KEY}
+    _PIP_ADDITIONAL_REQUIREMENTS: 'apache-airflow-providers-postgres boto3 pandas'   # <-- NOVO
+    MINIO_ENDPOINT: http://minio:9000                                                # <-- NOVO
+    MINIO_ROOT_USER: ${MINIO_ROOT_USER}                                              # <-- NOVO
+    MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD}                                       # <-- NOVO
   volumes:
     - ./dags:/opt/airflow/dags
     - ./logs:/opt/airflow/logs
     - ./plugins:/opt/airflow/plugins
     - ./data:/opt/airflow/data
+    - ./src/ingestion/dags:/opt/airflow/dags/ingestion 
   depends_on:
     postgres:
       condition: service_healthy
