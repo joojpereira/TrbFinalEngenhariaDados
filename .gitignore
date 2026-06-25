@@ -5,4 +5,11 @@ __pycache__/
 .venv/
 mc.exe
 saida*.log
+# ambiente e segredos
+.env
+
+# logs do Airflow
 logs/
+
+# lixo
+python

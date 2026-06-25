@@ -1,136 +1,157 @@
-## 🏗️ Arquitetura do Pipeline
+# Trabalho Final - Engenharia de Dados
 
-O projeto será organizado seguindo a arquitetura Medalhão, separando os dados em camadas conforme o nível de tratamento e refinamento.
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
+![Apache Spark](https://img.shields.io/badge/Apache%20Spark-3.5.1-orange?logo=apachespark)
+![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-2.9-017CEE?logo=apacheairflow)
+![Delta Lake](https://img.shields.io/badge/Delta%20Lake-3.2-blue)
+![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker)
+![MinIO](https://img.shields.io/badge/MinIO-S3-red)
+![Superset](https://img.shields.io/badge/Apache%20Superset-Dashboard-FF6B6B)
 
-```text
-Origem dos Dados
-        │
-        ▼
-Landing - Dados brutos em CSV
-        │
-        ▼
-Bronze - Dados em Delta Lake
-        │
-        ▼
-Silver - Dados tratados e refinados
-        │
-        ▼
-Gold - Modelo dimensional ou OBT
-        │
-        ▼
-Dashboard - KPIs e métricas
-```
+Pipeline de dados completo com arquitetura Medalhao (Landing, Bronze, Silver, Gold) utilizando dados Northwind expandidos com Python Faker.
 
-### Camadas
+## Documentacao
 
-- **Landing:** armazena os dados brutos no formato original.
-- **Bronze:** recebe os dados da Landing e grava em formato Delta Lake.
-- **Silver:** contém dados tratados, padronizados e preparados para análise.
-- **Gold:** disponibiliza os dados em modelo dimensional ou OBT para consumo no dashboard.
+Acesse a documentacao completa em: **https://joojpereira.github.io/TrbFinalEngenhariaDados/**
 
-## 🛠️ Tecnologias Utilizadas
+## Equipe
 
-Este projeto utiliza as seguintes tecnologias:
+| Nome | GitHub |
+|---|---|
+| Bruno Sabino | [@SabinexX](https://github.com/SabinexX) |
+| Filipe Jeremias | [@filipejeremias](https://github.com/filipejeremias) |
+| Joao Vitor Pereira | [@joojpereira](https://github.com/joojpereira) |
+| Nathan Frassetto | [@NathanFrassetto](https://github.com/NathanFrassetto) |
+| Rafael Pagnan | [@Ra-man](https://github.com/Ra-man) |
+| Ryan Candeu | [@ryancandeu](https://github.com/ryancandeu) |
 
-| Tecnologia | Finalidade |
-|------------|------------|
-| Python | Linguagem principal do projeto |
-| Apache Spark (PySpark) | Transformação dos dados |
-| Apache Airflow | Orquestração do pipeline |
-| PostgreSQL | Base de dados de origem |
-| Docker | Containerização dos serviços |
-| Delta Lake | Armazenamento das camadas Bronze, Silver e Gold |
-| Apache Superset | Construção do dashboard |
-| MkDocs | Documentação do projeto |
-| GitHub | Versionamento e colaboração |
-
-## 📊 Fluxo Geral
+## Arquitetura do Pipeline
 
 ```text
-Banco de Dados (PostgreSQL)
-            │
-            ▼
-Orquestração (Apache Airflow)
-            │
-            ▼
-Landing (CSV)
-            │
-            ▼
-Bronze (Delta Lake)
-            │
-            ▼
-Silver (Delta Lake)
-            │
-            ▼
-Gold (Modelo Dimensional)
-            │
-            ▼
-Dashboard (Apache Superset)
+PostgreSQL (Northwind + Faker)
+            |
+     Apache Airflow (Orquestracao)
+            |
+            v
+  MinIO - landing/ (CSV)
+            |
+     Apache Spark
+            |
+            v
+  MinIO - bronze/ (Delta Lake)
+            |
+     Apache Spark
+            |
+            v
+  MinIO - silver/ (Delta Lake)
+            |
+     Apache Spark
+            |
+            v
+  MinIO - gold/ (Delta Lake - Modelo Dimensional)
+            |
+            v
+  Apache Superset (Dashboard)
 ```
 
-## 🚀 Como executar o projeto
+## Stack Tecnologica
 
-### Pré-requisitos
+| Tecnologia | Versao | Finalidade |
+|---|---|---|
+| Python | 3.11 | Linguagem principal |
+| Apache Spark (PySpark) | 3.5.1 | Transformacao dos dados |
+| Apache Airflow | 2.9 | Orquestracao do pipeline |
+| PostgreSQL | 15 | Banco de dados de origem |
+| MinIO | latest | Object storage (Data Lake) |
+| Delta Lake | 3.2 | Formato Bronze/Silver/Gold |
+| Apache Superset | latest | Dashboard |
+| Docker Compose | - | Containerizacao |
+| MkDocs Material | - | Documentacao |
 
-Antes de iniciar, é necessário possuir as seguintes ferramentas instaladas:
+## Fonte de Dados
 
-- Docker
-- Docker Compose
-- Python 3.11+
-- Git
+Schema Northwind expandido com Python Faker: 10 tabelas, 10.000+ registros por tabela, ultimos 3 anos.
 
-### Clonando o repositório
+Tabelas: customers, orders, order_details, products, categories, employees, suppliers, shippers, regions, territories
+
+## Como Executar
+
+### 1. Clonar o repositorio
 
 ```bash
 git clone https://github.com/joojpereira/TrbFinalEngenhariaDados.git
 cd TrbFinalEngenhariaDados
 ```
 
-### Estrutura do Pipeline
+### 2. Configurar variaveis de ambiente
 
-O projeto será dividido nas seguintes etapas:
+```bash
+cp .env.example .env
+```
 
-1. Ingestão dos dados de origem
-2. Armazenamento na camada Landing
-3. Conversão para Delta Lake (Bronze)
-4. Tratamento e padronização (Silver)
-5. Modelagem dimensional (Gold)
-6. Construção do Dashboard
+### 3. Subir os containers
 
-### Documentação
+```bash
+docker compose --env-file .env up -d
+```
 
-Toda a documentação será disponibilizada através do MkDocs e publicada no GitHub Pages.
+### 4. Criar usuario do Airflow
 
-## 📁 Organização do Projeto
+```bash
+docker exec -it airflow-webserver airflow users create --username admin --password admin123 --firstname Admin --lastname User --role Admin --email admin@admin.com
+```
 
-Atualmente o projeto possui a seguinte estrutura:
+### 5. Inicializar o Superset
+
+```bash
+docker exec -it superset superset db upgrade
+docker exec -it superset superset fab create-admin --username admin --firstname Admin --lastname User --email admin@admin.com --password admin123
+docker exec -it superset superset init
+```
+
+### 6. Criar buckets no MinIO
+
+Acesse http://localhost:9001 (minioadmin / minioadmin123) e crie: landing, bronze, silver, gold
+
+### 7. Executar o pipeline no Airflow
+
+Acesse http://localhost:8080 (admin / admin123) e ative a DAG dag_northwind_to_landing.
+
+## Servicos e Portas
+
+| Servico | URL | Usuario | Senha |
+|---|---|---|---|
+| Airflow | http://localhost:8080 | admin | admin123 |
+| MinIO Console | http://localhost:9001 | minioadmin | minioadmin123 |
+| Spark Master UI | http://localhost:8081 | - | - |
+| Superset | http://localhost:8088 | admin | admin123 |
+| PostgreSQL | localhost:5432 | admin | admin123 |
+
+## Estrutura do Projeto
 
 ```text
 TrbFinalEngenhariaDados/
-│
-├── Data/
-│   ├── northwind_orders.csv
-│   └── northwind_order_details.csv
-│
-└── README.md
+|-- Data/
+|   |-- generated/          # CSVs gerados com Faker
+|   +-- original/           # CSVs originais Northwind
+|-- docs/                   # Documentacao MkDocs
+|-- scripts/                # Scripts auxiliares
+|-- sql/                    # Schema SQL
+|-- src/
+|   |-- ingestion/dags/     # DAGs do Airflow
+|   +-- transformation/jobs/ # Jobs PySpark
+|-- superset/               # Dashboard exportado
+|-- docker-compose.yml
+|-- .env.example
+|-- mkdocs.yml
++-- README.md
 ```
 
-A estrutura será expandida conforme o desenvolvimento das próximas etapas do projeto.
+## Camadas do Data Lake
 
-## 👥 Equipe
-
-Projeto desenvolvido para a disciplina de Engenharia de Dados.
-
-O desenvolvimento segue um modelo colaborativo baseado em GitHub Issues, Pull Requests e revisão de código, promovendo organização, rastreabilidade das alterações e boas práticas de desenvolvimento em equipe.
-
-## 🤝 Fluxo de Contribuição
-
-O desenvolvimento do projeto segue o seguinte fluxo:
-
-1. Selecionar uma Issue disponível;
-2. Criar uma branch específica para a atividade;
-3. Implementar as alterações necessárias;
-4. Realizar commits pequenos e descritivos;
-5. Enviar a branch para o repositório remoto;
-6. Abrir um Pull Request;
-7. Aguardar revisão e aprovação antes da integração na branch principal.
+| Camada | Formato | Descricao |
+|---|---|---|
+| Landing | CSV | Dados brutos do PostgreSQL |
+| Bronze | Delta Lake | Dados ingeridos sem transformacao |
+| Silver | Delta Lake | Dados limpos e padronizados |
+| Gold | Delta Lake | Modelo dimensional para dashboard |
