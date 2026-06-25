@@ -21,7 +21,7 @@ Acesse a documentacao completa em: **https://joojpereira.github.io/TrbFinalEngen
 | Bruno Sabino | [@SabinexX](https://github.com/SabinexX) |
 | Filipe Jeremias | [@filipejeremias](https://github.com/filipejeremias) |
 | Joao Vitor Pereira | [@joojpereira](https://github.com/joojpereira) |
-| Nathan Frassetto | [@NathanFrassetto](https://github.com/NathanFrassetto) |
+| Nathan Frassetto | [@NathanFrassetto](https://github.com/NathanHF) |
 | Rafael Pagnan | [@Ra-man](https://github.com/Ra-man) |
 | Ryan Candeu | [@ryancandeu](https://github.com/ryancandeu) |
 
