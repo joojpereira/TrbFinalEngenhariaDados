@@ -1,0 +1,12 @@
+site_name: Trabalho Final - Engenharia de Dados
+site_description: Documentação oficial do projeto
+site_author: Equipe Engenharia de Dados
+
+theme:
+  name: material
+
+nav:
+  - Início: index.md
+  - Arquitetura: arquitetura.md
+  - Modelo de Dados: modelo-dados.md
+  - Pipeline: pipeline.md
