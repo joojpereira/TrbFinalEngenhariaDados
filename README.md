@@ -74,48 +74,43 @@ Schema Northwind expandido com Python Faker: 10 tabelas, 10.000+ registros por t
 
 Tabelas: customers, orders, order_details, products, categories, employees, suppliers, shippers, regions, territories
 
-## Como Executar
+### Como rodar o projeto
 
-### 1. Clonar o repositorio
-
+**1. Clone o repositório:**
 ```bash
 git clone https://github.com/joojpereira/TrbFinalEngenhariaDados.git
 cd TrbFinalEngenhariaDados
 ```
 
-### 2. Configurar variaveis de ambiente
-
+**2. Crie o arquivo `.env` a partir do modelo:**
 ```bash
 cp .env.example .env
 ```
 
-### 3. Subir os containers
-
+**3. Suba o ambiente (com o Docker Desktop aberto):**
 ```bash
-docker compose --env-file .env up -d
+docker compose up -d
+```
+O Postgres cria as 10 tabelas automaticamente (via initdb) e o Airflow já cria o usuário admin no boot.
+
+**4. Popule o Postgres com os dados de origem:**
+```bash
+docker run --rm --network trbfinalengenhariadados_pipeline_net \
+  -v "/$(pwd)":/app -w //app python:3.11 \
+  bash -c "pip install -q pandas sqlalchemy psycopg2-binary && PGHOST=postgres python sql/load_to_postgres.py"
 ```
 
-### 4. Criar usuario do Airflow
-
+**5. Crie a connection do Airflow (ingestão):**
 ```bash
-docker exec -it airflow-webserver airflow users create --username admin --password admin123 --firstname Admin --lastname User --role Admin --email admin@admin.com
+docker exec airflow-webserver airflow connections add postgres_origem \
+  --conn-uri postgresql://admin:admin123@postgres:5432/food_delivery
 ```
 
-### 5. Inicializar o Superset
+**6. Acesse as interfaces:**
 
-```bash
-docker exec -it superset superset db upgrade
-docker exec -it superset superset fab create-admin --username admin --firstname Admin --lastname User --email admin@admin.com --password admin123
-docker exec -it superset superset init
-```
+As URLs e credenciais de cada serviço estão na seção [Serviços e Portas](#servicos-e-portas) abaixo.
 
-### 6. Criar buckets no MinIO
-
-Acesse http://localhost:9001 (minioadmin / minioadmin123) e crie: landing, bronze, silver, gold
-
-### 7. Executar o pipeline no Airflow
-
-Acesse http://localhost:8080 (admin / admin123) e ative a DAG dag_northwind_to_landing.
+> **Importante:** o `.env` não é versionado (contém credenciais). O passo 2 é obrigatório — sem ele, o `docker compose` não sobe.2 é obrigatório — sem ele, o `docker compose` não sobe.
 
 ## Servicos e Portas
 
